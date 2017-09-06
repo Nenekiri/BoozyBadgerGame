@@ -1,0 +1,1301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &134914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 478438}
+  - 114: {fileID: 11443940}
+  m_Layer: 0
+  m_Name: RamenManPowerUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &478438
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11443940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: RamenMan_stage1_idle1
+    boundsData:
+    - {x: -.00999999791, y: .00499999523, z: 0}
+    - {x: .159999996, y: .289999992, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.0899999961, y: -.140000001, z: 0}
+    - {x: .0700000003, y: -.140000001, z: 0}
+    - {x: -.0899999961, y: .149999991, z: 0}
+    - {x: .0700000003, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .234382808, y: .554691434}
+    - {x: .234382808, y: .617183566}
+    - {x: .460929692, y: .554691434}
+    - {x: .460929692, y: .617183566}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 09941030c1228dd449ffe30d1206e93a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage1_scream1
+    boundsData:
+    - {x: 0, y: -.00500000268, z: 0}
+    - {x: .299999982, y: .310000002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.149999991, y: -.159999996, z: 0}
+    - {x: .149999991, y: -.159999996, z: 0}
+    - {x: -.149999991, y: .149999991, z: 0}
+    - {x: .149999991, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .500007808, y: .246097654}
+    - {x: .500007808, y: .363277346}
+    - {x: .742179692, y: .246097654}
+    - {x: .742179692, y: .363277346}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 71390541280d52846a55e16e37835296
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage1_scream2
+    boundsData:
+    - {x: 0, y: -.00500000268, z: 0}
+    - {x: .319999993, y: .310000002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.159999996, y: -.159999996, z: 0}
+    - {x: .159999996, y: -.159999996, z: 0}
+    - {x: -.159999996, y: .149999991, z: 0}
+    - {x: .159999996, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .250007808, y: .125003904}
+    - {x: .499992192, y: .125003904}
+    - {x: .250007808, y: .246089846}
+    - {x: .499992192, y: .246089846}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9ec62c0a7facb034786d751a00fca63d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage1_idle2
+    boundsData:
+    - {x: -.00999999791, y: .00499999523, z: 0}
+    - {x: .159999996, y: .289999992, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.0899999961, y: -.140000001, z: 0}
+    - {x: .0700000003, y: -.140000001, z: 0}
+    - {x: -.0899999961, y: .149999991, z: 0}
+    - {x: .0700000003, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .558597684}
+    - {x: 7.81250037e-06, y: .621089816}
+    - {x: .226554692, y: .558597684}
+    - {x: .226554692, y: .621089816}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: e5ca757c04ad267468e2ac21c40a7d9d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage1_scream3
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.159999996, y: -.159999996, z: 0}
+    - {x: .159999996, y: -.159999996, z: 0}
+    - {x: -.159999996, y: .159999996, z: 0}
+    - {x: .159999996, y: .159999996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: 3.90625019e-06}
+    - {x: .249992192, y: 3.90625019e-06}
+    - {x: 7.81250037e-06, y: .124996096}
+    - {x: .249992192, y: .124996096}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0c74afed31e7c4f4cbb17ebbb15e7010
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage4_idle4
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .500007808, y: .363285154}
+    - {x: .500007808, y: .457027346}
+    - {x: .734367192, y: .363285154}
+    - {x: .734367192, y: .457027346}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 49c6ef20764ebc24eb680b26e8833fec
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage2_scream3
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.159999996, y: -.159999996, z: 0}
+    - {x: .159999996, y: -.159999996, z: 0}
+    - {x: -.159999996, y: .159999996, z: 0}
+    - {x: .159999996, y: .159999996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .250007808, y: 3.90625019e-06}
+    - {x: .499992192, y: 3.90625019e-06}
+    - {x: .250007808, y: .124996096}
+    - {x: .499992192, y: .124996096}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4a1b784017ba0d9479de34f47d902904
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage2_scream1
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.159999996, y: -.159999996, z: 0}
+    - {x: .159999996, y: -.159999996, z: 0}
+    - {x: -.159999996, y: .159999996, z: 0}
+    - {x: .159999996, y: .159999996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .500007808, y: 3.90625019e-06}
+    - {x: .749992192, y: 3.90625019e-06}
+    - {x: .500007808, y: .124996096}
+    - {x: .749992192, y: .124996096}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: b5492b60aa79d814d8d8c71b94bbbcf8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage3_idle3
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .250007808, y: .367191404}
+    - {x: .250007808, y: .460933596}
+    - {x: .484367192, y: .367191404}
+    - {x: .484367192, y: .460933596}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: cae441f00417beb488c79d300bcb85ae
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage4_idle1
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .371097654}
+    - {x: 7.81250037e-06, y: .464839846}
+    - {x: .234367192, y: .371097654}
+    - {x: .234367192, y: .464839846}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 347a44f1ef5bc1b41a5e2860950473b4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage4_idle3
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .371097654}
+    - {x: 7.81250037e-06, y: .464839846}
+    - {x: .234367192, y: .371097654}
+    - {x: .234367192, y: .464839846}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: a976bbd2953ba6447ad6ac581e2768f8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage2_idle2
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .734382808, y: .363285154}
+    - {x: .734382808, y: .457027346}
+    - {x: .968742192, y: .363285154}
+    - {x: .968742192, y: .457027346}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 344b66d31429ab244acca619e97995ef
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage4_scream1
+    boundsData:
+    - {x: 0, y: -.00500000268, z: 0}
+    - {x: .319999993, y: .310000002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.159999996, y: -.159999996, z: 0}
+    - {x: .159999996, y: -.159999996, z: 0}
+    - {x: -.159999996, y: .149999991, z: 0}
+    - {x: .159999996, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .500007808, y: .125003904}
+    - {x: .749992192, y: .125003904}
+    - {x: .500007808, y: .246089846}
+    - {x: .749992192, y: .246089846}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 947733f407260fd4b93f480edc756818
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage2_idle1
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .484382808, y: .457035154}
+    - {x: .484382808, y: .550777316}
+    - {x: .718742192, y: .457035154}
+    - {x: .718742192, y: .550777316}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 232770a6654f084409eca30ab41f855c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage2_scream2
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.159999996, y: -.159999996, z: 0}
+    - {x: .159999996, y: -.159999996, z: 0}
+    - {x: -.159999996, y: .159999996, z: 0}
+    - {x: .159999996, y: .159999996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .750007808, y: 3.90625019e-06}
+    - {x: .999992192, y: 3.90625019e-06}
+    - {x: .750007808, y: .124996096}
+    - {x: .999992192, y: .124996096}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 61e04d47ed37d0644923d50e475b2e43
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage3_idle2
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .234382808, y: .460941404}
+    - {x: .234382808, y: .554683566}
+    - {x: .468742192, y: .460941404}
+    - {x: .468742192, y: .554683566}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 646bb41843721df428dfc64e7b9fb45f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage3_scream1
+    boundsData:
+    - {x: 0, y: -.00500000268, z: 0}
+    - {x: .299999982, y: .310000002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.149999991, y: -.159999996, z: 0}
+    - {x: .149999991, y: -.159999996, z: 0}
+    - {x: -.149999991, y: .149999991, z: 0}
+    - {x: .149999991, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .742195308, y: .246097654}
+    - {x: .742195308, y: .363277346}
+    - {x: .984367192, y: .246097654}
+    - {x: .984367192, y: .363277346}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4ccaaf1851a21514ea0907310588bdc8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage4_scream2
+    boundsData:
+    - {x: 0, y: -.00500000268, z: 0}
+    - {x: .319999993, y: .310000002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.159999996, y: -.159999996, z: 0}
+    - {x: .159999996, y: -.159999996, z: 0}
+    - {x: -.159999996, y: .149999991, z: 0}
+    - {x: .159999996, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .750007808, y: .125003904}
+    - {x: .999992192, y: .125003904}
+    - {x: .750007808, y: .246089846}
+    - {x: .999992192, y: .246089846}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 140ed328d2f2dae4f9354161e4e33755
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage3_scream3
+    boundsData:
+    - {x: 0, y: -.00500000268, z: 0}
+    - {x: .319999993, y: .310000002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.159999996, y: -.159999996, z: 0}
+    - {x: .159999996, y: -.159999996, z: 0}
+    - {x: -.159999996, y: .149999991, z: 0}
+    - {x: .159999996, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .250007808, y: .246097654}
+    - {x: .499992192, y: .246097654}
+    - {x: .250007808, y: .367183596}
+    - {x: .499992192, y: .367183596}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 13d6c5483ab544748940cb122413a9b8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage3_idle1
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .250007808, y: .367191404}
+    - {x: .250007808, y: .460933596}
+    - {x: .484367192, y: .367191404}
+    - {x: .484367192, y: .460933596}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 56a43158f0a2d594598588828ff4695d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage3_scream2
+    boundsData:
+    - {x: 0, y: -.00500000268, z: 0}
+    - {x: .319999993, y: .310000002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.159999996, y: -.159999996, z: 0}
+    - {x: .159999996, y: -.159999996, z: 0}
+    - {x: -.159999996, y: .149999991, z: 0}
+    - {x: .159999996, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .250003904}
+    - {x: .249992192, y: .250003904}
+    - {x: 7.81250037e-06, y: .371089846}
+    - {x: .249992192, y: .371089846}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 53b7bf2a0617e0144bca67c2d5669b32
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage4_idle2
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .464847654}
+    - {x: 7.81250037e-06, y: .558589816}
+    - {x: .234367192, y: .464847654}
+    - {x: .234367192, y: .558589816}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8cce098a0e1167e48b57df98175c8efc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage2_idle4
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .718757808, y: .457035154}
+    - {x: .718757808, y: .550777316}
+    - {x: .953117192, y: .457035154}
+    - {x: .953117192, y: .550777316}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 030ebeba11cb4e648b7d1988e00ccfa9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage4_scream3
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.159999996, y: -.159999996, z: 0}
+    - {x: .159999996, y: -.159999996, z: 0}
+    - {x: -.159999996, y: .159999996, z: 0}
+    - {x: .159999996, y: .159999996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .125003904}
+    - {x: .249992192, y: .125003904}
+    - {x: 7.81250037e-06, y: .249996096}
+    - {x: .249992192, y: .249996096}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4811870cde10795458c52dfaca7cfa50
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage2_idle3
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .484382808, y: .457035154}
+    - {x: .484382808, y: .550777316}
+    - {x: .718742192, y: .457035154}
+    - {x: .718742192, y: .550777316}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 68ad1ced50fecc64289a84e4b889da4a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: RamenMan_stage3_idle4
+    boundsData:
+    - {x: 0, y: -.00999999791, z: 0}
+    - {x: .239999995, y: .300000012, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.119999997, y: -.159999996, z: 0}
+    - {x: .119999997, y: -.159999996, z: 0}
+    - {x: -.119999997, y: .140000001, z: 0}
+    - {x: .119999997, y: .140000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .468757808, y: .550785184}
+    - {x: .468757808, y: .644527316}
+    - {x: .703117192, y: .550785184}
+    - {x: .703117192, y: .644527316}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+    materialId: 0
+    sourceTextureGUID: e6edaeee3b42b0c44abb25e74fe88e01
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 363ebd134ee02c848bab45e5b1df577e, type: 2}
+  textures:
+  - {fileID: 2800000, guid: a8c0bb67ec5a97d408169ba1eea59690, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 0
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: f3f20ae62a98d0b478ebda8428613ee5
+  spriteCollectionName: RamenManPowerUp
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1145134791
+  dataGuid: f5defdcfd9e0cf7408c32c20e29f2f33
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 134914}
+  m_IsPrefabParent: 1

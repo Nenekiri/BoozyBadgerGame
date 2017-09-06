@@ -1,0 +1,1301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &116052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 470978}
+  - 114: {fileID: 11404648}
+  m_Layer: 0
+  m_Name: BossDeathAnimCol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &470978
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11404648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: EagleDeath9
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .656257808}
+    - {x: .164054692, y: .656257808}
+    - {x: 7.81250037e-06, y: .890617192}
+    - {x: .164054692, y: .890617192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3b6b740055eab3544827ee1163d72b29
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath26
+    boundsData:
+    - {x: .00499999989, y: .00499999989, z: 0}
+    - {x: .00999999978, y: .00999999978, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: 0, y: 0, z: 0}
+    - {x: .00999999978, y: 0, z: 0}
+    - {x: 0, y: .00999999978, z: 0}
+    - {x: .00999999978, y: .00999999978, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .992195308}
+    - {x: .0078046876, y: .992195308}
+    - {x: 7.81250037e-06, y: .999992192}
+    - {x: .0078046876, y: .999992192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: d1274730125f98f45a55b9a516d2d706
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath1
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .164070308, y: .656257808}
+    - {x: .328117192, y: .656257808}
+    - {x: .164070308, y: .890617192}
+    - {x: .328117192, y: .890617192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8a94d9306228b4845bd74ffef510f8dd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath22
+    boundsData:
+    - {x: .0449999981, y: -.0699999928, z: 0}
+    - {x: .229999989, y: .159999996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.0700000003, y: -.149999991, z: 0}
+    - {x: .159999996, y: -.149999991, z: 0}
+    - {x: -.0700000003, y: .00999999978, z: 0}
+    - {x: .159999996, y: .00999999978, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .562507808, y: .867195308}
+    - {x: .742179692, y: .867195308}
+    - {x: .562507808, y: .992179692}
+    - {x: .742179692, y: .992179692}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5faeff91dfd26c24a916e2c5387bea5b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath23
+    boundsData:
+    - {x: .0449999981, y: -.099999994, z: 0}
+    - {x: .229999989, y: .099999994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.0700000003, y: -.149999991, z: 0}
+    - {x: .159999996, y: -.149999991, z: 0}
+    - {x: -.0700000003, y: -.049999997, z: 0}
+    - {x: .159999996, y: -.049999997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .890632808}
+    - {x: .179679692, y: .890632808}
+    - {x: 7.81250037e-06, y: .968742192}
+    - {x: .179679692, y: .968742192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: b0df7bb153840344597dd9006e3b1df3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath8
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .195320308, y: 7.81250037e-06}
+    - {x: .359367192, y: 7.81250037e-06}
+    - {x: .195320308, y: .234367192}
+    - {x: .359367192, y: .234367192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: b6d603d1cbd120c49a97b694d2817029
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath13
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .195320308, y: .234382808}
+    - {x: .195320308, y: .398429692}
+    - {x: .429679692, y: .234382808}
+    - {x: .429679692, y: .398429692}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: e9bbbee275e342c47aca32b5cbc79d22
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath2
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .359382808, y: 7.81250037e-06}
+    - {x: .523429692, y: 7.81250037e-06}
+    - {x: .359382808, y: .234367192}
+    - {x: .523429692, y: .234367192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 339176b329a546943bac3ecb74c2cca4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath7
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .203132808, y: .398445308}
+    - {x: .367179692, y: .398445308}
+    - {x: .203132808, y: .632804692}
+    - {x: .367179692, y: .632804692}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5e6d0a3461d30674889ede6130cf4e89
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath24
+    boundsData:
+    - {x: .0449999981, y: -.11999999, z: 0}
+    - {x: .229999989, y: .0599999949, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.0700000003, y: -.149999991, z: 0}
+    - {x: .159999996, y: -.149999991, z: 0}
+    - {x: -.0700000003, y: -.0899999961, z: 0}
+    - {x: .159999996, y: -.0899999961, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .179695308, y: .890632808}
+    - {x: .359367192, y: .890632808}
+    - {x: .179695308, y: .937492192}
+    - {x: .359367192, y: .937492192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1d80d315b93f2484da99c7d8002dcfb1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath25
+    boundsData:
+    - {x: .0700000003, y: -.13499999, z: 0}
+    - {x: .179999992, y: .0299999937, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.0199999996, y: -.149999991, z: 0}
+    - {x: .159999996, y: -.149999991, z: 0}
+    - {x: -.0199999996, y: -.119999997, z: 0}
+    - {x: .159999996, y: -.119999997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .968757808}
+    - {x: .140617192, y: .968757808}
+    - {x: 7.81250037e-06, y: .992179692}
+    - {x: .140617192, y: .992179692}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: .99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: .99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9c35b8063fc46d449a378838034347d9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath16
+    boundsData:
+    - {x: .0249999985, y: 0, z: 0}
+    - {x: .249999985, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .149999991, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .149999991, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: 7.81250037e-06}
+    - {x: .195304692, y: 7.81250037e-06}
+    - {x: 7.81250037e-06, y: .234367192}
+    - {x: .195304692, y: .234367192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 671061f66e2e9684caa69be765ee95a4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath20
+    boundsData:
+    - {x: .0300000012, y: -.054999996, z: 0}
+    - {x: .25999999, y: .189999998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .159999996, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .0399999991, z: 0}
+    - {x: .159999996, y: .0399999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .851570308, y: 7.81250037e-06}
+    - {x: .851570308, y: .203117192}
+    - {x: .999992192, y: 7.81250037e-06}
+    - {x: .999992192, y: .203117192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: e7c936a7295a5a04283ef5458e28d58d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath17
+    boundsData:
+    - {x: .0249999985, y: -.00999999791, z: 0}
+    - {x: .249999985, y: .279999971, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .149999991, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .129999995, z: 0}
+    - {x: .149999991, y: .129999995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .234382808}
+    - {x: .195304692, y: .234382808}
+    - {x: 7.81250037e-06, y: .453117192}
+    - {x: .195304692, y: .453117192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0c0278a70155c444cb889bb2f34049f9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath15
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .328132808, y: .632820308}
+    - {x: .492179692, y: .632820308}
+    - {x: .328132808, y: .867179692}
+    - {x: .492179692, y: .867179692}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 65f3d408731c6d648b521f07a9d7c9c9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath14
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .367195308, y: .398445308}
+    - {x: .531242192, y: .398445308}
+    - {x: .367195308, y: .632804692}
+    - {x: .531242192, y: .632804692}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2c288cb9502c818419e82b21e6f49e0b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath6
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .429695308, y: .234382808}
+    - {x: .429695308, y: .398429692}
+    - {x: .664054692, y: .234382808}
+    - {x: .664054692, y: .398429692}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: b4a9d12a85f5e854ba8493ee500c3c34
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath3
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .523445308, y: 7.81250037e-06}
+    - {x: .687492192, y: 7.81250037e-06}
+    - {x: .523445308, y: .234367192}
+    - {x: .687492192, y: .234367192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: ef620a7abf84c6648977f0c77bb8e40f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath11
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .492195308, y: .632820308}
+    - {x: .656242192, y: .632820308}
+    - {x: .492195308, y: .867179692}
+    - {x: .656242192, y: .867179692}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: f50adcda26804d747b7b61e4a2656cf0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath19
+    boundsData:
+    - {x: .0249999985, y: -.0349999964, z: 0}
+    - {x: .249999985, y: .229999989, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .149999991, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .0799999982, z: 0}
+    - {x: .149999991, y: .0799999982, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .695320308, y: .398445308}
+    - {x: .695320308, y: .593742192}
+    - {x: .874992192, y: .398445308}
+    - {x: .874992192, y: .593742192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: a15c0efa687ce624cb75f296d5f9c2db
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath12
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .531257808, y: .398445308}
+    - {x: .695304692, y: .398445308}
+    - {x: .531257808, y: .632804692}
+    - {x: .695304692, y: .632804692}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 692baf3bd082e2042b5532e15a162676
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath10
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .664070308, y: .234382808}
+    - {x: .664070308, y: .398429692}
+    - {x: .898429692, y: .234382808}
+    - {x: .898429692, y: .398429692}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: e54cc97d0b39cf84182a05e74dd452e6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath4
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .687507808, y: 7.81250037e-06}
+    - {x: .851554692, y: 7.81250037e-06}
+    - {x: .687507808, y: .234367192}
+    - {x: .851554692, y: .234367192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: a00f141eacf438749a39d6c905f5fc97
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath18
+    boundsData:
+    - {x: .0300000012, y: -.0199999958, z: 0}
+    - {x: .25999999, y: .25999999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .159999996, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .109999999, z: 0}
+    - {x: .159999996, y: .109999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .453132808}
+    - {x: .203117192, y: .453132808}
+    - {x: 7.81250037e-06, y: .656242192}
+    - {x: .203117192, y: .656242192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 67af127e4c6e1814e978518d0645760a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath21
+    boundsData:
+    - {x: .0300000012, y: -.0649999976, z: 0}
+    - {x: .25999999, y: .169999987, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .159999996, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .0199999996, z: 0}
+    - {x: .159999996, y: .0199999996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .359382808, y: .867195308}
+    - {x: .562492192, y: .867195308}
+    - {x: .359382808, y: .999992192}
+    - {x: .562492192, y: .999992192}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 53599f7e71e55304fbe22a56227d0c21
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: EagleDeath5
+    boundsData:
+    - {x: .00500000268, y: 0, z: 0}
+    - {x: .209999993, y: .299999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .319999993, y: .319999993, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.099999994, y: -.149999991, z: 0}
+    - {x: .109999999, y: -.149999991, z: 0}
+    - {x: -.099999994, y: .149999991, z: 0}
+    - {x: .109999999, y: .149999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .656257808, y: .632820308}
+    - {x: .820304692, y: .632820308}
+    - {x: .656257808, y: .867179692}
+    - {x: .820304692, y: .867179692}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3acf43ff574472b4a8ff5ec76aa036ef
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
+  textures:
+  - {fileID: 2800000, guid: e3d4c5b5873ac6e4bb4b1615044f143b, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 0
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 66b931b9cc1f2dc4195ae148947abaec
+  spriteCollectionName: BossDeathAnimCol
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1479119256
+  dataGuid: 984c3da7902f6f14aa83b1a7e34f012f
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 116052}
+  m_IsPrefabParent: 1
