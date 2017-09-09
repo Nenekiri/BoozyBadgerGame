@@ -4001,6 +4001,48 @@ MonoBehaviour:
     - EagleDeath18
     - EagleDeath21
     - EagleDeath5
+    - FoxDeath2
+    - FoxDeath32
+    - FoxDeath25
+    - FoxDeath37
+    - FoxDeath18
+    - FoxDeath20
+    - FoxDeath17
+    - FoxDeath34
+    - FoxDeath9
+    - FoxDeath19
+    - FoxDeath5
+    - FoxDeath12
+    - FoxDeath10
+    - FoxDeath40
+    - FoxDeath13
+    - FoxDeath1
+    - FoxDeath7
+    - FoxDeath6
+    - FoxDeath42
+    - FoxDeath26
+    - FoxDeath39
+    - FoxDeath38
+    - FoxDeath3
+    - FoxDeath29
+    - FoxDeath4
+    - FoxDeath8
+    - FoxDeath23
+    - FoxDeath14
+    - FoxDeath36
+    - FoxDeath16
+    - FoxDeath41
+    - FoxDeath35
+    - FoxDeath30
+    - FoxDeath27
+    - FoxDeath33
+    - FoxDeath31
+    - FoxDeath21
+    - FoxDeath15
+    - FoxDeath11
+    - FoxDeath24
+    - FoxDeath22
+    - FoxDeath28
     spriteTextureGUIDs:
     - 3b6b740055eab3544827ee1163d72b29
     - d1274730125f98f45a55b9a516d2d706
@@ -4028,6 +4070,48 @@ MonoBehaviour:
     - 67af127e4c6e1814e978518d0645760a
     - 53599f7e71e55304fbe22a56227d0c21
     - 3acf43ff574472b4a8ff5ec76aa036ef
+    - 8c27e2901854aed46ae1886a9c3937ee
+    - dd4207b054ff6ab4f89ea59c8a92b354
+    - 902d00c0cd854744f8d276bb8ef59660
+    - f45362e12e0a1564eb642e8aad16ff73
+    - fd3429f16ef0f74458fa2341f3aa5543
+    - 099bb332ce33b7349b1e83dec5dfaab5
+    - e7c598325751c644c9a90d200d16bd79
+    - 496a2482979962e449f7b9e64b70a420
+    - 1e1e5b235f32cf04cb37833597931323
+    - 8e6d3153e8f10fe4c827602a4fe95792
+    - e7ecb793f4d88c447a8a06911e7a266f
+    - 05a87ea3f2cec3a4f8075a271d61c2b4
+    - d6183fc3be74df54b9c2ec3ab737ea3c
+    - ce502214c1b3ef6478a0662d970bef86
+    - 05da12243ae85bd4999b38fbcd412871
+    - f3766f742262c4c4c8b91f83557a9f37
+    - c7439494b7f39f6428240eef1c69353a
+    - 0989eae44da60d4449eb2841fa03bd3e
+    - 5bb6c705e4988004a9d45c0234cf9d89
+    - f921ef75f3f0dde4a81f2f4e87ad58f9
+    - c1b44fc5830142a45b78e58850cae952
+    - 2c45ae063cb99264a9dd94142871a710
+    - 6c3a5e76d563e6146b9b9e53986ff920
+    - 5c39d7e674579634fa1045a4f4378767
+    - 9e03b437487bde04b9aca5873bf143af
+    - 427ae558c408df142877d9ffe9d21749
+    - dc97dba82054a7c469dacf2f598f78cd
+    - ff49faf8fa8351f4b83ca527a9056c67
+    - a7805e09e608e704ea8ea66fe8aa0ddb
+    - 562420aba0df5bb4ab19ecfe1f2e10f1
+    - d73e33dbc4587c74baec399908b092ab
+    - 6f81897cfb16b284b9346a38f96f51be
+    - 95f8beacde893e34ab62657c3493ba9c
+    - 6663818d997c2dd4fb5cf712498e3dd4
+    - 53ca65ad887869a4281e4111b470d592
+    - 6f4d52ed4a068b94a8f619c4ea5d1cdc
+    - a6be7b6edd66ca34dada66df44828520
+    - 39c9600fd5e63794a90b38f0777123ad
+    - 6427769f401967f4b9c03bb155675f80
+    - 2670acbf43569bd43a98a75a9fca87a9
+    - c29145ef70237d74b8afd50d634cd5ea
+    - 1c8248ef4b7175249860735e8206df00
     spriteTextureTimeStamps:
     - 1504546126.66358
     - 1504547343.29255
@@ -4055,6 +4139,48 @@ MonoBehaviour:
     - 1504546933.36776
     - 1504547119.91794
     - 1504545896.12538
+    - 1504911008.30647
+    - 1504911008.39918
+    - 1504911008.39568
+    - 1504911008.40069
+    - 1504911008.39118
+    - 1504911008.39218
+    - 1504911008.39018
+    - 1504911008.39968
+    - 1504911008.31049
+    - 1504911008.39168
+    - 1504911008.30797
+    - 1504911008.31199
+    - 1504911008.31099
+    - 1504911008.4017
+    - 1504911008.31199
+    - 1504911008.30597
+    - 1504911008.30897
+    - 1504911008.30847
+    - 1504911008.40269
+    - 1504911008.39618
+    - 1504911008.4017
+    - 1504911008.40119
+    - 1504911008.30697
+    - 1504911008.39768
+    - 1504911008.30747
+    - 1504911008.30999
+    - 1504911008.39418
+    - 1504911008.31249
+    - 1504911008.40069
+    - 1504911008.38968
+    - 1504911008.40219
+    - 1504911008.40019
+    - 1504911008.39818
+    - 1504911008.39668
+    - 1504911008.39968
+    - 1504911008.39868
+    - 1504911008.39318
+    - 1504911008.38918
+    - 1504911008.31149
+    - 1504911008.39518
+    - 1504911008.39368
+    - 1504911008.39718
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

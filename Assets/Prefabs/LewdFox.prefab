@@ -127,7 +127,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 3396aba9d5d6edf4ea958504ad94c8bd, type: 2}
+  - {fileID: 2100000, guid: 2153b8af3a724014a8710e894ea7799f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -172,8 +172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e54113e5604435b8ae87c7754f2725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  library: {fileID: 11457082, guid: ef999a8d173b43b479581e455789cd78, type: 2}
-  defaultClipId: 0
+  library: {fileID: 11487330, guid: a021e53796c13c04aa7b1c0ada651fcc, type: 2}
+  defaultClipId: 1
   playAutomatically: 0
 --- !u!114 &11414586
 MonoBehaviour:
@@ -186,10 +186,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collection: {fileID: 11480352, guid: 4dacf23f120410142bc619db65d032e2, type: 2}
+  collection: {fileID: 11404648, guid: 984c3da7902f6f14aa83b1a7e34f012f, type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
-  _spriteId: 4
+  _spriteId: 41
   boxCollider2D: {fileID: 0}
   polygonCollider2D: []
   edgeCollider2D: []
@@ -500,7 +500,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: library
       value: 
-      objectReference: {fileID: 11457082, guid: ef999a8d173b43b479581e455789cd78,
+      objectReference: {fileID: 11487330, guid: a021e53796c13c04aa7b1c0ada651fcc,
         type: 2}
     - target: {fileID: 0}
       propertyPath: collection
@@ -510,6 +510,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: _spriteId
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: defaultClipId
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
