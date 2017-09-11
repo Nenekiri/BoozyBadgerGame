@@ -80,4 +80,9 @@ public class PauseManager : MonoBehaviour {
 
     }
 
+    public void Reload()
+    {
+        Application.LoadLevel(Application.loadedLevel); 
+    }
+
 }//end of class

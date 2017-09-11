@@ -33,8 +33,10 @@ public class Enemy : MonoBehaviour {
     private ParticleSystem ps;
 
     private tk2dSpriteAnimator anim;
-    private AudioSource audios; 
+    private AudioSource audios;
 
+    public int randNum;
+    public bool spawnedHealth = false; 
 
     //specific variables used for Boss Death anim and sound played when defeated
     public bool isBoss;
@@ -57,7 +59,10 @@ public class Enemy : MonoBehaviour {
 
         //gets the sprite animator for the enemy
         anim = GetComponent<tk2dSpriteAnimator>();
-        audios = GetComponent<AudioSource>(); 
+        audios = GetComponent<AudioSource>();
+
+
+        randNum = Random.Range(1, 4);
 
         //foreach (Transform child in transform)
         //{
@@ -133,10 +138,11 @@ public class Enemy : MonoBehaviour {
 
                 this.gameObject.tag = "Untagged";  
 
-                int randNum = Random.Range(1, 4);
-                if (randNum == 2)
+                
+                if (randNum == 2 && spawnedHealth == false)
                 {
-                    Instantiate(boozeDrop, transform.position, Quaternion.Euler(0, 180, 0)); 
+                    Instantiate(boozeDrop, transform.position, Quaternion.Euler(0, 180, 0));
+                    spawnedHealth = true; 
                 }
 
                 //isAttacked = false; 

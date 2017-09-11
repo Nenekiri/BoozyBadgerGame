@@ -266,6 +266,8 @@ MonoBehaviour:
   player: {fileID: 122888, guid: fcbffe93443c53849bababd9106e9875, type: 2}
   distance: 0
   animP: {fileID: 0}
+  randNum: 0
+  spawnedHealth: 0
   isBoss: 0
   bossDeathSound: {fileID: 0}
   timer: 0

@@ -256,6 +256,8 @@ MonoBehaviour:
   player: {fileID: 0}
   distance: 0
   animP: {fileID: 0}
+  randNum: 0
+  spawnedHealth: 0
   isBoss: 1
   bossDeathSound: {fileID: 8300000, guid: 0cdb60b56ad6a8f49acb2fbf73789aaa, type: 3}
   pointB: {x: 25, y: 6.55999994, z: 0}

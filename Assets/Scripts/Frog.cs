@@ -67,10 +67,10 @@ private float playerDist = 0.0f;
             v.x = 0.0f; 
         }
         //if the jumper falls down a hole we want to destroy it so that it doesn't continue to exist for no reason. he's not coming back.
-        if (transform.position.y < -10)
-        {
-            Destroy(gameObject);
-        }
+        //if (transform.position.y < -10)
+        //{
+        //    Destroy(gameObject);
+        //}
 
         //changes the direction that the enemy is facing
         if (player.transform.position.x < transform.position.x)

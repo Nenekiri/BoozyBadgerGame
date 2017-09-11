@@ -185,6 +185,8 @@ MonoBehaviour:
   player: {fileID: 0}
   distance: 0
   animP: {fileID: 0}
+  randNum: 0
+  spawnedHealth: 0
   isBoss: 0
   bossDeathSound: {fileID: 0}
   projectile: {fileID: 118402, guid: 04f3ced9c0a27b74c979be59463c0ee1, type: 2}

@@ -12,4 +12,5 @@ public enum DialoguerDialogues{
 	EagleEliAfterFight = 8,
 	UwULewdFoxDialogue = 9,
 	UwUAfterFight = 10,
+	AwooConvo = 11,
 }
