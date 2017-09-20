@@ -2794,7 +2794,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 433144, guid: df6bd613a4089bd49add2e17740e1326, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 3341826, guid: df6bd613a4089bd49add2e17740e1326, type: 2}
       propertyPath: m_Mesh
@@ -12592,6 +12592,22 @@ Prefab:
     - target: {fileID: 22406662, guid: 338876085eb9e5646b32ee7e16726768, type: 2}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5078390, guid: 338876085eb9e5646b32ee7e16726768, type: 2}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412400, guid: 338876085eb9e5646b32ee7e16726768, type: 2}
+      propertyPath: jumpDist
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412400, guid: 338876085eb9e5646b32ee7e16726768, type: 2}
+      propertyPath: hopHeight
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412400, guid: 338876085eb9e5646b32ee7e16726768, type: 2}
+      propertyPath: hopSpeed
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 338876085eb9e5646b32ee7e16726768, type: 2}

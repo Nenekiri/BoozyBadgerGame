@@ -39,7 +39,7 @@ public class FrillLizard : Enemy {
 	void Update ()
     {
         distance = player.transform.position.x - transform.position.x;
-        Debug.Log("This is the distance the player is from the character: " + distance);
+        //Debug.Log("This is the distance the player is from the character: " + distance);
 
         if (currentHealth > 0)
         {

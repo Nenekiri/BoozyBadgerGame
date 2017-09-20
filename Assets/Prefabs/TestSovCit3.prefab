@@ -235,6 +235,10 @@ MonoBehaviour:
   bossDeathSound: {fileID: 0}
   jumpSpeed: 2
   counter: 0
+  hopHeight: 0
+  hopSpeed: 0
+  jumpDist: 0
+  grounded: 0
 --- !u!114 &11429972
 MonoBehaviour:
   m_ObjectHideFlags: 1
