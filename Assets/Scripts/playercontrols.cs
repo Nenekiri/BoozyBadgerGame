@@ -31,7 +31,12 @@ public class playercontrols : MonoBehaviour {
     public GameObject OtterTrigger;
 
     //varible to control second jump once it is unlocked from beating the eagle boss
-    public int jumpCounter = 0; 
+    public int jumpCounter = 0;
+
+    //variables to control the logic for when dialogue ends
+    public GameObject eagleDial;
+    public GameObject eaglePlaceholder;
+    public GameObject eagleBoss;  
 
     void Start()
     {
@@ -47,6 +52,9 @@ public class playercontrols : MonoBehaviour {
             OtterDialogue = GameObject.Find("OtterDialogue");
             OtterTrigger = GameObject.Find("DialogueTriggerOtter"); 
         }
+
+        //this bit of code allows us to tell when dialogue events have ended
+        Dialoguer.events.onEnded += Events_onEnded;
 
 
 
@@ -123,6 +131,30 @@ public class playercontrols : MonoBehaviour {
         {
             OtterDialogue.transform.GetChild(0).gameObject.SetActive(true);
             OtterTrigger.SetActive(false);
+        }
+    }
+
+    //this section is to keep track of when certain dialogues end
+    private void Events_onEnded()
+    {
+        Debug.Log("Dialogue ended!");
+        //if (g.activeInHierarchy && !(MaskDialogue.activeInHierarchy))
+        //{
+        //    MaskTrigger.SetActive(true);
+        //}
+        //throw new System.NotImplementedException();
+        if (eagleDial.activeInHierarchy)
+        {
+            //this is where we'll play the sound effect and have the little cutscene for Barrister turning into Boozy
+            //aus.PlayOneShot(transformSound);
+            //ps.Play();
+            //StartCoroutine(Delay(2f));
+
+            Debug.Log("Eagle Dialogue is active in Hierarchy");
+
+            eaglePlaceholder.SetActive(false);
+            eagleBoss.SetActive(true);
+
         }
     }
 
@@ -314,6 +346,9 @@ public class playercontrols : MonoBehaviour {
 
 
     }//end of LateUpdate
+
+
+  
 
 
     //    //how fast the player walks

@@ -3090,6 +3090,9 @@ MonoBehaviour:
   OtterDialogue: {fileID: 0}
   OtterTrigger: {fileID: 0}
   jumpCounter: 0
+  eagleDial: {fileID: 0}
+  eaglePlaceholder: {fileID: 0}
+  eagleBoss: {fileID: 0}
 --- !u!1001 &297412666
 Prefab:
   m_ObjectHideFlags: 0

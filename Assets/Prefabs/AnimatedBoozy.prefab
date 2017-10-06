@@ -240,6 +240,9 @@ MonoBehaviour:
   OtterDialogue: {fileID: 0}
   OtterTrigger: {fileID: 0}
   jumpCounter: 0
+  eagleDial: {fileID: 0}
+  eaglePlaceholder: {fileID: 0}
+  eagleBoss: {fileID: 0}
 --- !u!114 &11497060
 MonoBehaviour:
   m_ObjectHideFlags: 1
