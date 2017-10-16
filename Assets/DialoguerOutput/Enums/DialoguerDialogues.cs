@@ -13,4 +13,6 @@ public enum DialoguerDialogues{
 	UwULewdFoxDialogue = 9,
 	UwUAfterFight = 10,
 	AwooConvo = 11,
+	FinalToast = 12,
+	ComputerDialogue = 13,
 }

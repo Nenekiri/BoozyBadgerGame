@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55b78d6060eadde4394ed1d0ba2b8c97, type: 3}
   m_Name: tileMapTestEditorData
   m_EditorClassIdentifier: 
-  editMode: 0
+  editMode: 3
   brushColor: {r: 1, g: 1, b: 1, a: 1}
   brushRadius: 1
   blendStrength: 1
@@ -34,19 +34,19 @@ MonoBehaviour:
     brushHash: -1513159936
   activeBrush:
     name: 
-    type: 0
+    type: 3
     paintMode: 0
     tiles:
     - x: 0
       y: 0
       layer: 0
-      spriteId: 10
+      spriteId: -1
       blendAmount: 0
-    multiSelectTiles: 0a000000
+    multiSelectTiles: ffffffff
     edgeMode: 0
     multiLayer: 0
     overrideWithSpriteBounds: 0
-    brushHash: 628473856
+    brushHash: 856848195
   brushes: []
   paletteBrush:
     name: 
@@ -5057,7 +5057,7 @@ MonoBehaviour:
     edgeMode: 0
     multiLayer: 0
     overrideWithSpriteBounds: 1
-    brushHash: -150385728
+    brushHash: 1882308224
   paletteTilesPerRow: 8
   setupMode: 4
   showBrush: 1

@@ -10,6 +10,7 @@ public class DialogueTest : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
+        started = false;
         Dialoguer.StartDialogue(dialogueNumber);
     }
 	

@@ -36,7 +36,10 @@ public class playercontrols : MonoBehaviour {
     //variables to control the logic for when dialogue ends
     public GameObject eagleDial;
     public GameObject eaglePlaceholder;
-    public GameObject eagleBoss;  
+    public GameObject eagleBoss;
+
+    //variable to control the logic for when the computer dialogue is over
+    public GameObject compDial; 
 
     void Start()
     {
@@ -56,8 +59,17 @@ public class playercontrols : MonoBehaviour {
         //this bit of code allows us to tell when dialogue events have ended
         Dialoguer.events.onEnded += Events_onEnded;
 
+        if (Application.loadedLevelName == "EagleBossFight")
+        {
+            eagleDial = GameObject.Find("EagleDialogue");
+            eaglePlaceholder = GameObject.Find("EaglePlaceholder"); 
+        }
 
+    }
 
+    void OnDestroy()
+    {
+        Dialoguer.events.onEnded -= Events_onEnded;
     }
 
     void FixedUpdate()
@@ -143,7 +155,7 @@ public class playercontrols : MonoBehaviour {
         //    MaskTrigger.SetActive(true);
         //}
         //throw new System.NotImplementedException();
-        if (eagleDial.activeInHierarchy)
+        if (Dialoguer.GetGlobalBoolean(6) == true && Dialoguer.GetGlobalBoolean(2) == false)
         {
             //this is where we'll play the sound effect and have the little cutscene for Barrister turning into Boozy
             //aus.PlayOneShot(transformSound);
@@ -153,7 +165,19 @@ public class playercontrols : MonoBehaviour {
             Debug.Log("Eagle Dialogue is active in Hierarchy");
 
             eaglePlaceholder.SetActive(false);
-            eagleBoss.SetActive(true);
+            eagleBoss.SetActive(true); 
+
+        }
+        else if (Dialoguer.GetGlobalBoolean(7) == true)
+        {
+            //this is where we'll play the sound effect and have the little cutscene for Barrister turning into Boozy
+            //aus.PlayOneShot(transformSound);
+            //ps.Play();
+            //StartCoroutine(Delay(2f));
+
+            Debug.Log("Computer Dialogue is active in Hierarchy");
+
+            Application.LoadLevel("Internet1-1");//this is where we will load the first Internet level 
 
         }
     }

@@ -243,6 +243,7 @@ MonoBehaviour:
   eagleDial: {fileID: 0}
   eaglePlaceholder: {fileID: 0}
   eagleBoss: {fileID: 0}
+  compDial: {fileID: 0}
 --- !u!114 &11497060
 MonoBehaviour:
   m_ObjectHideFlags: 1

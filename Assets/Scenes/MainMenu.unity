@@ -2023,6 +2023,9 @@ MonoBehaviour:
   ac: {fileID: 8300000, guid: 81377df37a54e984ca3ab5dc783c2938, type: 3}
   startingScene: {fileID: 8300000, guid: 65980879944ce3042aa6305fec34c4b3, type: 3}
   firstLevel: {fileID: 8300000, guid: 39708f53cbc8f044db158793d924d28e, type: 3}
+  EagleBoss: {fileID: 8300000, guid: 0d000a8c33be4234183529e8f4e93381, type: 3}
+  Internet: {fileID: 8300000, guid: 65980879944ce3042aa6305fec34c4b3, type: 3}
+  LewdFoxBoss: {fileID: 8300000, guid: b7e0c7e8e4175bb46baf7ea16e7c5222, type: 3}
 --- !u!4 &1571168885
 Transform:
   m_ObjectHideFlags: 0

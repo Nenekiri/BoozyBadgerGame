@@ -54,11 +54,20 @@ public class GoldenEagle : Enemy {
             {
                 //endPos = pointB;
                 thisTransform.position = Vector3.Lerp(startPos, endPos, i);
+               
             }
             else if (timer >= 15.0f && timer <= 25.0f)
             {
                 endPos = pointC;
                 thisTransform.position = Vector3.Lerp(startPos, endPos, i);
+                if (currentHealth <= 0)
+                {
+                    //this is to ensure that all movement based in coroutines stops before the final cutscene plays
+                    StopAllCoroutines();
+                    //Start the coroutine that does a delay and then plays the ending dialogue for the boss
+                    StartCoroutine(DelayBoss(3.0f));
+                }
+
             }
             else if (timer >= 25.0f)
             {
@@ -178,12 +187,12 @@ public class GoldenEagle : Enemy {
         ShowHealthBar();
 
         if (currentHealth <= 0)
-        { 
+        {
             endDialogue.SetActive(true);
         }
-        
 
-        
+
+
 
     }
 

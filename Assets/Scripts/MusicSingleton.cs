@@ -28,7 +28,10 @@ public class MusicSingleton : MonoBehaviour {
     public AudioSource s;
     public AudioClip ac;
     public AudioClip startingScene; 
-    public AudioClip firstLevel; 
+    public AudioClip firstLevel;
+    public AudioClip EagleBoss;
+    public AudioClip Internet;
+    public AudioClip LewdFoxBoss; 
 
 
 
@@ -58,6 +61,33 @@ public class MusicSingleton : MonoBehaviour {
         if (Application.loadedLevelName == "GameStart")
         {
             s.clip = firstLevel;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+
+        if (Application.loadedLevelName == "EagleBossFight")
+        {
+            s.clip = EagleBoss;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+
+        if (Application.loadedLevelName == "Internet1-1")
+        {
+            s.clip = Internet;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+
+        if (Application.loadedLevelName == "LewdFoxBoss")
+        {
+            s.clip = LewdFoxBoss;
             if (!s.isPlaying)
             {
                 s.Play();

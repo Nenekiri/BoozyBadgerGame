@@ -11,10 +11,9 @@ GameObject:
   - 23: {fileID: 2311870}
   - 33: {fileID: 3371732}
   - 114: {fileID: 11453360}
-  - 61: {fileID: 6142014}
-  - 50: {fileID: 5070596}
+  - 61: {fileID: 6183092}
   m_Layer: 0
-  m_Name: OfficePaperMiddle
+  m_Name: OfficePlatformTableMiddle
   m_TagString: platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +41,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 01a7dee02e8dfc843bb44da2ce22eaa4, type: 2}
+  - {fileID: 2100000, guid: 6b8347bbc7c75024da039a24e90aaf5e, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -63,23 +62,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 180770}
   m_Mesh: {fileID: 0}
---- !u!50 &5070596
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 180770}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &6142014
+--- !u!61 &6183092
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -89,9 +72,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -.0399999991}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: .159999996, y: .0799999982}
+  m_Size: {x: 1, y: 1}
 --- !u!114 &11453360
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -103,11 +86,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collection: {fileID: 11419938, guid: 2055eb005e1f0794b9833f3eaebbd94d, type: 2}
+  collection: {fileID: 11452586, guid: 6ccdc9beadded464ebca1d8b45286f4e, type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
-  _spriteId: 50
-  boxCollider2D: {fileID: 6142014}
+  _spriteId: 8
+  boxCollider2D: {fileID: 0}
   polygonCollider2D: []
   edgeCollider2D: []
   boxCollider: {fileID: 0}
@@ -123,12 +106,33 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
-      propertyPath: _spriteId
-      value: 50
+      propertyPath: polygonCollider2D.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 0}
-      propertyPath: m_Constraints
+      propertyPath: _spriteId
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: boxCollider2D
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: polygonCollider2D.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: collection
+      value: 
+      objectReference: {fileID: 11452586, guid: 6ccdc9beadded464ebca1d8b45286f4e,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: boxCollider
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

@@ -158,7 +158,7 @@ public class Enemy : MonoBehaviour {
                     anim.Play("EnemyDeathAnim");
                     anim.AnimationCompleted = DestroyDelegate;
                 }
-                else
+                else if(isBoss)
                 {
                     //this is to ensure that all movement based in coroutines stops before the final cutscene plays
                     StopAllCoroutines(); 
@@ -218,7 +218,7 @@ public class Enemy : MonoBehaviour {
         yield return new WaitForSeconds(delay);
     }
 
-    IEnumerator DelayBoss(float delay)
+    public IEnumerator DelayBoss(float delay)
     {
         yield return new WaitForSeconds(delay);
         audios.PlayOneShot(bossDeathSound);

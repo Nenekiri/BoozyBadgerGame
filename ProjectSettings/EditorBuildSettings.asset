@@ -21,3 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Office1-2.unity
   - enabled: 1
     path: Assets/Scenes/Office1-3.unity
+  - enabled: 1
+    path: Assets/Scenes/EagleBossFight.unity
+  - enabled: 1
+    path: Assets/Scenes/Internet1-1.unity
