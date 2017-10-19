@@ -112,7 +112,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 131450}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.13000011, y: .0699999928, z: 0}
+  m_LocalPosition: {x: 43.6100006, y: -15.5100002, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children:
   - {fileID: 22490082}
@@ -235,9 +235,9 @@ MonoBehaviour:
   bossDeathSound: {fileID: 0}
   jumpSpeed: 2
   counter: 0
-  hopHeight: 0
-  hopSpeed: 0
-  jumpDist: 0
+  hopHeight: 200
+  hopSpeed: 20
+  jumpDist: 5
   grounded: 0
 --- !u!114 &11429972
 MonoBehaviour:

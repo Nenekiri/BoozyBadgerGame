@@ -30,6 +30,10 @@ public class playercontrols : MonoBehaviour {
     public GameObject OtterDialogue;
     public GameObject OtterTrigger;
 
+    //varibles for triggering the dialogue with QM on the first Internet stage
+    public GameObject OtterInternetDialogue;
+    public GameObject OtterInternetTrigger; 
+
     //varible to control second jump once it is unlocked from beating the eagle boss
     public int jumpCounter = 0;
 
@@ -54,6 +58,13 @@ public class playercontrols : MonoBehaviour {
         {
             OtterDialogue = GameObject.Find("OtterDialogue");
             OtterTrigger = GameObject.Find("DialogueTriggerOtter"); 
+        }
+
+        //find the variables to trigger the QM starting dialogue
+        if (Application.loadedLevelName == "Internet1-1")
+        {
+            OtterInternetDialogue = GameObject.Find("OtterInternetDialogue");
+            OtterInternetTrigger = GameObject.Find("DialogueTriggerInternetOtter");
         }
 
         //this bit of code allows us to tell when dialogue events have ended
@@ -143,6 +154,19 @@ public class playercontrols : MonoBehaviour {
         {
             OtterDialogue.transform.GetChild(0).gameObject.SetActive(true);
             OtterTrigger.SetActive(false);
+        }
+        //This section is to trigger the dialogue that starts the convo with QM in Internet stage
+        if (col.tag == "DialogueTriggerInternetOtter")
+        {
+            OtterInternetDialogue.transform.GetChild(0).gameObject.SetActive(true);
+            OtterInternetTrigger.SetActive(false);
+        }
+
+        //this is used to keep the player from falling forever in the level
+        if (col.tag == "SpikeBoundary")
+        {
+            string lvlName = Application.loadedLevelName;
+            Application.LoadLevel(lvlName);
         }
     }
 

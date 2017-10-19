@@ -20,8 +20,8 @@ MonoBehaviour:
   layersFixedZ: 0
   useSortingLayers: 0
   tilePrefabs:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 105744, guid: e9d11357bc8dabe4f9ed868d13722989, type: 2}
+  - {fileID: 104280, guid: d3975db1300ba754f8c65e5d96734bd6, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -61,7 +61,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 160430, guid: 207f9e241bc1c4146a7046a22af6d91e, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

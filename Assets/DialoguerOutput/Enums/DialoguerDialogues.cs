@@ -15,4 +15,6 @@ public enum DialoguerDialogues{
 	AwooConvo = 11,
 	FinalToast = 12,
 	ComputerDialogue = 13,
+	InternetDialogue = 14,
+	OtterInternet = 15,
 }

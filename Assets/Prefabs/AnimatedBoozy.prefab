@@ -78,7 +78,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 122888}
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: .100000001
   m_GravityScale: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -239,6 +239,8 @@ MonoBehaviour:
   pickupSound: {fileID: 8300000, guid: 06ce6852d85a98f4ea76e49932dfd3f7, type: 3}
   OtterDialogue: {fileID: 0}
   OtterTrigger: {fileID: 0}
+  OtterInternetDialogue: {fileID: 0}
+  OtterInternetTrigger: {fileID: 0}
   jumpCounter: 0
   eagleDial: {fileID: 0}
   eaglePlaceholder: {fileID: 0}
@@ -1374,6 +1376,10 @@ Prefab:
       propertyPath: hitSound
       value: 
       objectReference: {fileID: 8300000, guid: dc78dd745fc16f24187bc573a3686af2, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_AngularDrag
+      value: .100000001
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 122888}

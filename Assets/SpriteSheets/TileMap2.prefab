@@ -117,10 +117,10 @@ MonoBehaviour:
     regionW: 16
     regionH: 16
     regionId: 0
-    colliderType: 0
+    colliderType: 3
     colliderData: []
-    boxColliderMin: {x: 0, y: 0}
-    boxColliderMax: {x: 0, y: 0}
+    boxColliderMin: {x: 0, y: 8}
+    boxColliderMax: {x: 16, y: 16}
     polyColliderIslands: []
     polyColliderCap: 1
     colliderConvex: 0
@@ -158,10 +158,10 @@ MonoBehaviour:
     regionW: 16
     regionH: 16
     regionId: 1
-    colliderType: 0
+    colliderType: 3
     colliderData: []
-    boxColliderMin: {x: 0, y: 0}
-    boxColliderMax: {x: 0, y: 0}
+    boxColliderMin: {x: 8, y: 0}
+    boxColliderMax: {x: 16, y: 16}
     polyColliderIslands: []
     polyColliderCap: 1
     colliderConvex: 0
@@ -1818,10 +1818,10 @@ MonoBehaviour:
     regionW: 16
     regionH: 16
     regionId: 41
-    colliderType: 0
+    colliderType: 3
     colliderData: []
     boxColliderMin: {x: 0, y: 0}
-    boxColliderMax: {x: 0, y: 0}
+    boxColliderMax: {x: 8, y: 16}
     polyColliderIslands: []
     polyColliderCap: 1
     colliderConvex: 0

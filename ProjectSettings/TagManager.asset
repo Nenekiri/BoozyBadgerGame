@@ -16,6 +16,8 @@ TagManager:
   - DialogueTrigger
   - DialogueTriggerMask
   - DialogueTriggerOtter
+  - DialogueTriggerInternetOtter
+  - SpikeBoundary
   layers:
   - Default
   - TransparentFX
