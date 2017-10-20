@@ -3,6 +3,8 @@ using System.Collections;
 
 public class MainMenuUI : MonoBehaviour {
 
+    public static bool continued; 
+
 	// Use this for initialization
 	void Start () {
 	
@@ -15,7 +17,7 @@ public class MainMenuUI : MonoBehaviour {
 
     public void NewGame()
     {
-
+        continued = false; 
         //Deletes the game's data and lets the player start fresh
         PlayerPrefs.DeleteAll();
         Application.LoadLevel("OpeningScene");
@@ -27,6 +29,36 @@ public class MainMenuUI : MonoBehaviour {
 
     public void ContinueGame()
     {
+        continued = true; 
+
+        if (PlayerPrefs.GetFloat("savedLevel") == 1)
+        {
+            Application.LoadLevel("GameStart"); 
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 2)
+        {
+            Application.LoadLevel("Office1-2");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 3)
+        {
+            Application.LoadLevel("Office1-3");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 4)
+        {
+            Application.LoadLevel("EagleBossFight");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 5)
+        {
+            Application.LoadLevel("Internet1-1");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 6)
+        {
+            Application.LoadLevel("Internet1-2");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 7)
+        {
+            Application.LoadLevel("Internet1-3");
+        }
 
         //this is the general format for how I loaded levels in Ramen Man
         //if (PlayerPrefs.GetFloat("savedLevel") == 1)

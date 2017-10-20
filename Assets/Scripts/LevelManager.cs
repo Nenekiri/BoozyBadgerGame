@@ -62,7 +62,7 @@ void Start()
             //change the sprite to be the happy one
             sr.sprite = happyOtter;
             audios.PlayOneShot(finishLevelSound); 
-            StartCoroutine(Delay(8.0f)); 
+            StartCoroutine(Delay(5.0f)); 
             
         }
 

@@ -49,6 +49,15 @@ public class MusicSingleton : MonoBehaviour {
     void Update()
     {
 
+        if (Application.loadedLevelName == "MainMenu")
+        {
+            s.clip = ac;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+
         if (Application.loadedLevelName == "OpeningScene")
         {
             s.clip = startingScene;
@@ -67,6 +76,23 @@ public class MusicSingleton : MonoBehaviour {
             }
         }
 
+        if (Application.loadedLevelName == "Office1-2")
+        {
+            s.clip = firstLevel;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+        if (Application.loadedLevelName == "Office1-3")
+        {
+            s.clip = firstLevel;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+
         if (Application.loadedLevelName == "EagleBossFight")
         {
             s.clip = EagleBoss;
@@ -77,6 +103,22 @@ public class MusicSingleton : MonoBehaviour {
         }
 
         if (Application.loadedLevelName == "Internet1-1")
+        {
+            s.clip = Internet;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+        if (Application.loadedLevelName == "Internet1-2")
+        {
+            s.clip = Internet;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+        if (Application.loadedLevelName == "Internet1-3")
         {
             s.clip = Internet;
             if (!s.isPlaying)
