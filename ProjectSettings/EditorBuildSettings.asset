@@ -29,3 +29,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Internet1-2.unity
   - enabled: 1
     path: Assets/Scenes/Internet1-3.unity
+  - enabled: 1
+    path: Assets/Scenes/Internet1-4.unity

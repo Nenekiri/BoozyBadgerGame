@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class BarristerControls : MonoBehaviour {
 
+    //varible to stop the barrister character from moving during dialog boxes
+    public static bool isDialogBarrister; 
+
     public float maxSpeed = 3.0f;
     public float walkSpeed = 12.0f;
     public float jumpHeight = 1.0f;
@@ -142,26 +145,29 @@ public class BarristerControls : MonoBehaviour {
 
         Vector3 v = rigidbody.velocity;
 
-
-        if (Input.GetAxis("Horizontal") < -0.1f)
+        if (isDialogBarrister == false)//this is supposed to check for the static variable to stop the player from moving during the dialog parts, currently doesn't work
         {
-            transform.localScale = new Vector3(-5, 5, 1);
-            anim.Play("BarristerWalk");
-            idleTimer = 0.0f;
-        }
 
-        if (Input.GetAxis("Horizontal") > 0.1f)
-        {
-            transform.localScale = new Vector3(5, 5, 1);
-            anim.Play("BarristerWalk");
-            idleTimer = 0.0f;
-        }
+            if (Input.GetAxis("Horizontal") < -0.1f)
+            {
+                transform.localScale = new Vector3(-5, 5, 1);
+                anim.Play("BarristerWalk");
+                idleTimer = 0.0f;
+            }
 
-        if (Input.GetAxis("Horizontal") == 0.0f)
-        {
-            anim.Play("BarristerStandStill");
-        }
+            if (Input.GetAxis("Horizontal") > 0.1f)
+            {
+                transform.localScale = new Vector3(5, 5, 1);
+                anim.Play("BarristerWalk");
+                idleTimer = 0.0f;
+            }
 
+            if (Input.GetAxis("Horizontal") == 0.0f)
+            {
+                anim.Play("BarristerStandStill");
+            }
+
+        }
         Boozyps.Stop();
 
 

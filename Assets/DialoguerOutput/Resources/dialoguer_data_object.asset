@@ -3967,7 +3967,7 @@ MonoBehaviour:
     - id: 13
       name: ComputerDialogue
       startPage: 12
-      scrollPosition: {x: 1187, y: 0}
+      scrollPosition: {x: 599.055298, y: 0}
       phases:
       - id: 0
         type: 0
@@ -4041,7 +4041,7 @@ MonoBehaviour:
         metadata: 
         text: 'Well, this is certainly a first.  '
         name: Grandiose
-        portrait: 
+        portrait: ProfessorFoxPortrait
         audio: 
         audioDelay: 0
         rect:
@@ -4075,7 +4075,7 @@ MonoBehaviour:
           If you did, then you could collect evidence for the case at the scene of
           the crime. '
         name: Dante
-        portrait: 
+        portrait: DantePortrait
         audio: 
         audioDelay: 0
         rect:
@@ -4107,7 +4107,7 @@ MonoBehaviour:
         text: 'Yeah! Or maybe the scientist has a spare TF ray you could use to fix
           the furm. '
         name: Meow
-        portrait: 
+        portrait: LunaPortrait
         audio: 
         audioDelay: 0
         rect:
@@ -4203,7 +4203,7 @@ MonoBehaviour:
         text: 'I know of something that might help! But you''ll have to make your
           way through the Internet to get there. '
         name: Grandiose
-        portrait: 
+        portrait: ProfessorFoxPortrait
         audio: 
         audioDelay: 0
         rect:
@@ -4265,7 +4265,7 @@ MonoBehaviour:
         metadata: 
         text: We'll help you along the way too!
         name: Meow
-        portrait: 
+        portrait: LunaPortrait
         audio: 
         audioDelay: 0
         rect:
@@ -4296,7 +4296,7 @@ MonoBehaviour:
         metadata: 
         text: 'We got your back Boozy, don''t worry. '
         name: Dante
-        portrait: 
+        portrait: DantePortrait
         audio: 
         audioDelay: 0
         rect:
@@ -4423,7 +4423,7 @@ MonoBehaviour:
     - id: 14
       name: InternetDialogue
       startPage: 12
-      scrollPosition: {x: 0, y: 60}
+      scrollPosition: {x: 0, y: 0}
       phases:
       - id: 0
         type: 0
@@ -4466,7 +4466,7 @@ MonoBehaviour:
         text: 'I set you on the fast track to where you need to be. Something kept
           me from getting the exact location though. '
         name: Grandiose
-        portrait: 
+        portrait: ProfessorFoxPortrait
         audio: 
         audioDelay: 0
         rect:
@@ -4529,7 +4529,7 @@ MonoBehaviour:
         metadata: 
         text: Uh, why are they all naked?
         name: Meow
-        portrait: 
+        portrait: LunaPortrait
         audio: 
         audioDelay: 0
         rect:
@@ -4560,7 +4560,7 @@ MonoBehaviour:
         metadata: 
         text: Could be we're in an AD account.
         name: Dante
-        portrait: 
+        portrait: DantePortrait
         audio: 
         audioDelay: 0
         rect:
@@ -4620,9 +4620,9 @@ MonoBehaviour:
         outs: 07000000
         advanced: 1
         metadata: 
-        text: 'Had to be done, Boozy. Trust me, it''ll make sense when you get there. '
+        text: Don't shoot the messenger, I was just told where to send you.
         name: Grandiose
-        portrait: 
+        portrait: ProfessorFoxPortrait
         audio: 
         audioDelay: 0
         rect:
@@ -4683,8 +4683,8 @@ MonoBehaviour:
         advanced: 1
         metadata: 
         text: 'Hey! I resent that. Sometimes I''m a goat. '
-        name: Grandiose
-        portrait: 
+        name: Buster
+        portrait: BusterBleatonPortrait
         audio: 
         audioDelay: 0
         rect:

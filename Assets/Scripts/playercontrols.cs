@@ -3,6 +3,9 @@ using System.Collections;
 
 public class playercontrols : MonoBehaviour {
 
+    //variable used to stop the player from moving during dialog box scenes
+    public static bool isDialog; 
+
     public float maxSpeed = 3.0f; 
     public float walkSpeed = 12.0f;
     public float jumpHeight = 1.0f;
@@ -225,14 +228,14 @@ public class playercontrols : MonoBehaviour {
         Vector3 v = rigidbody.velocity;
         
 
-        if (Input.GetAxis("Horizontal") < -0.1f)
+        if (Input.GetAxis("Horizontal") < -0.1f && !isDialog)
         {
             transform.localScale = new Vector3(-5, 5, 1);
             anim.Play("BoozyWalk");
             idleTimer = 0.0f;  
         }
 
-        if (Input.GetAxis("Horizontal") > 0.1f)
+        if (Input.GetAxis("Horizontal") > 0.1f && !isDialog)
         {
             transform.localScale = new Vector3(5, 5, 1);
             anim.Play("BoozyWalk");

@@ -285,9 +285,8 @@ public class LegacyClassicRpgGui : MonoBehaviour
 	private void drawDialogueBox(Rect rect, Color color)
 	{
 
-
-		// Background gradient
-		GUI.color = color;
+        // Background gradient
+        GUI.color = color;
 		GUI.Box(rect, string.Empty, GUI.skin.GetStyle("box_background"));
 		GUI.color = GUI.contentColor;
 
@@ -364,6 +363,8 @@ public class LegacyClassicRpgGui : MonoBehaviour
 
 	private void startWindowTweenOut()
 	{
+       
+         
 		_windowReady = false;
 		DialogueriTween.ValueTo(
 			this.gameObject,
@@ -388,11 +389,20 @@ public class LegacyClassicRpgGui : MonoBehaviour
 	private void windowInComplete()
 	{
 		_windowReady = true;
-	}
+        //This variable is to keep the player from moving when the dialog box is created
+        playercontrols.isDialog = true;
+        BarristerControls.isDialogBarrister = true;
+        Debug.Log("This is the current value of isDialog on draw: " + playercontrols.isDialog);
+        Debug.Log("This is the current value of isDialogBarrister on draw: " + BarristerControls.isDialogBarrister);
+
+    }
 
 	private void windowOutComplete()
 	{
-		_showDialogueBox = false;
+        //This variable is to give control back to the player once the dialog box closes
+        playercontrols.isDialog = false;
+        BarristerControls.isDialogBarrister = false;
+        _showDialogueBox = false;
 		resetWindowSize();
 		if (_ending)
 		{
