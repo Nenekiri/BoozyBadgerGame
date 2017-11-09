@@ -310,6 +310,9 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 0}
   projectile: {fileID: 160502, guid: 89f05e5e121a32244a137f6f11b700f4, type: 2}
   timer: 0
+  audios: {fileID: 0}
+  teleportSound: {fileID: 0}
+  endDialogue: {fileID: 0}
 --- !u!114 &11489578
 MonoBehaviour:
   m_ObjectHideFlags: 1

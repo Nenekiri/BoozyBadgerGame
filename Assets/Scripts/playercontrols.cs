@@ -40,13 +40,19 @@ public class playercontrols : MonoBehaviour {
     //varible to control second jump once it is unlocked from beating the eagle boss
     public int jumpCounter = 0;
 
-    //variables to control the logic for when dialogue ends
+    //variables to control the logic for when dialogue ends for Eagle Eli
     public GameObject eagleDial;
     public GameObject eaglePlaceholder;
     public GameObject eagleBoss;
 
+
     //variable to control the logic for when the computer dialogue is over
-    public GameObject compDial; 
+    public GameObject compDial;
+
+    //variables to control the logic for when the dialogue ends for Lewd Fox
+    public GameObject lewdDial;
+    public GameObject lewdPlaceholder;
+    public GameObject lewdBoss; 
 
     void Start()
     {
@@ -77,6 +83,12 @@ public class playercontrols : MonoBehaviour {
         {
             eagleDial = GameObject.Find("EagleDialogue");
             eaglePlaceholder = GameObject.Find("EaglePlaceholder"); 
+        }
+
+        if (Application.loadedLevelName == "LewdFoxBoss")
+        {
+            lewdDial = GameObject.Find("LewdFoxDialogue");
+            lewdPlaceholder = GameObject.Find("LewdFoxPlaceholder");
         }
 
     }
@@ -205,6 +217,19 @@ public class playercontrols : MonoBehaviour {
             Debug.Log("Computer Dialogue is active in Hierarchy");
 
             Application.LoadLevel("Internet1-1");//this is where we will load the first Internet level 
+
+        }
+        else if (Dialoguer.GetGlobalBoolean(8) == true)
+        {
+            //this is where we'll play the sound effect and have the little cutscene for Barrister turning into Boozy
+            //aus.PlayOneShot(transformSound);
+            //ps.Play();
+            //StartCoroutine(Delay(2f));
+
+            //Debug.Log("Computer Dialogue is active in Hierarchy");
+
+            lewdPlaceholder.SetActive(false);
+            lewdBoss.SetActive(true);
 
         }
     }

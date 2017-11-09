@@ -2968,7 +2968,7 @@ MonoBehaviour:
     - id: 9
       name: UwULewdFoxDialogue
       startPage: 0
-      scrollPosition: {x: 712, y: 0}
+      scrollPosition: {x: 741.213013, y: 0}
       phases:
       - id: 0
         type: 0
@@ -3193,7 +3193,7 @@ MonoBehaviour:
         type: 0
         theme: 
         position: {x: 1278, y: 445}
-        outs: 08000000
+        outs: 09000000
         advanced: 1
         metadata: 
         text: Alright, that's it. I've had enough sex talk. I'm gonna finish this
@@ -3225,7 +3225,7 @@ MonoBehaviour:
       - id: 8
         type: 6
         theme: 
-        position: {x: 1650, y: 346}
+        position: {x: 1829, y: 234}
         outs: 
         advanced: 0
         metadata: 
@@ -3250,6 +3250,37 @@ MonoBehaviour:
         variableScrollPosition: {x: 0, y: 0}
         variableSetEquation: 0
         variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 9
+        type: 3
+        theme: 
+        position: {x: 1607.21301, y: 321}
+        outs: 08000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 8
+        variableScrollPosition: {x: 0, y: 71}
+        variableSetEquation: 0
+        variableSetValue: true
         variableGetEquation: 0
         variableGetValue: 
         messageName: 
@@ -5036,7 +5067,10 @@ MonoBehaviour:
         - name: EndComputerDialog
           variable: false
           id: 7
-        selection: 7
+        - name: EndLewdFoxDialogue
+          variable: false
+          id: 8
+        selection: 8
       floats:
         variables: []
         selection: 0

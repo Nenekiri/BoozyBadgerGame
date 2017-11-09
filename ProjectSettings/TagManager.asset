@@ -18,6 +18,7 @@ TagManager:
   - DialogueTriggerOtter
   - DialogueTriggerInternetOtter
   - SpikeBoundary
+  - BigSword
   layers:
   - Default
   - TransparentFX

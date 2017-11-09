@@ -15,11 +15,19 @@ public class LewdFox : Enemy {
     public float timer;
     private ParticleEmitter emitter;
 
+    public AudioSource audios;
+    public AudioClip teleportSound;
+
+    public GameObject endDialogue;
+
+    private bool foxDead = false; 
+
     // Use this for initialization
     void Start ()
     {
         base.Start();
         emitter = GetComponent<ParticleEmitter>();
+        audios = this.GetComponent<AudioSource>();
         //starts the coroutine that handles the waiting and then firing of the fox enemy
     }
 
@@ -29,8 +37,9 @@ public class LewdFox : Enemy {
         timer += Time.deltaTime;
 
         //might be able to vary this boss fight up a bit by having him fire faster and fire more projectiles as the battle goes on and his health gets lower
-        if (timer >= 5.0f)
+        if (timer >= 5.0f && !foxDead)
         {
+            audios.PlayOneShot(teleportSound); 
             this.transform.position = (points[Random.Range(0, points.Length * 7) % points.Length]);
             GameObject clone = (GameObject)Instantiate(projectile, transform.position, transform.rotation);
             GameObject clone2 = (GameObject)Instantiate(projectile, transform.position, transform.rotation);
@@ -54,6 +63,8 @@ public class LewdFox : Enemy {
                 clone3.GetComponent<Rigidbody2D>().velocity = new Vector2(5, 2);
             }
             Destroy(clone, 4);
+            Destroy(clone2, 4);
+            Destroy(clone3, 4);
 
             timer = 0.0f; 
         }
@@ -85,6 +96,13 @@ public class LewdFox : Enemy {
 
         //hides the healthbar if not in range
         ShowHealthBar();
+
+        //plays the death dialogue if the health is 0
+        if (currentHealth <= 0)
+        {
+            foxDead = true;
+            endDialogue.SetActive(true);
+        }
     }
 
 }
