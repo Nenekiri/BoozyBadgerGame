@@ -17,4 +17,8 @@ public enum DialoguerDialogues{
 	ComputerDialogue = 13,
 	InternetDialogue = 14,
 	OtterInternet = 15,
+	InternetAfterFight = 16,
+	UnfortunateRevelation = 17,
+	ActuallyUseful = 18,
+	NoMessWithOtter = 19,
 }

@@ -230,6 +230,10 @@ MonoBehaviour:
   jumpHeight: 7
   fallLimit: 300
   grounded: 0
+  camoflaged: 0
+  camoflageReady: 0
+  camoflageTimer: 0
+  camoText: {fileID: 0}
   jumpSound: {fileID: 8300000, guid: 26cb12863cbf6bf44ace46b8b1f69726, type: 3}
   firstJump: 0
   secondJump: 0

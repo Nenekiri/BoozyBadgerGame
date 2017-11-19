@@ -11,7 +11,12 @@ public class playercontrols : MonoBehaviour {
     public float jumpHeight = 1.0f;
     public float fallLimit = 300.0f;
 
-    public bool grounded; 
+    public bool grounded;
+
+    public bool camoflaged;
+    public bool camoflageReady;
+    public float camoflageTimer = 0.0f;
+    public GameObject camoText; 
 
     public AudioClip jumpSound;
 
@@ -90,6 +95,9 @@ public class playercontrols : MonoBehaviour {
             lewdDial = GameObject.Find("LewdFoxDialogue");
             lewdPlaceholder = GameObject.Find("LewdFoxPlaceholder");
         }
+
+        camoflageReady = true;
+        camoText = GameObject.Find("CamoText"); 
 
     }
 
@@ -239,6 +247,22 @@ public class playercontrols : MonoBehaviour {
         BoozeGoggles = !BoozeGoggles; 
     }
 
+    //Method to run for the camoflague effect
+    void Camoflage()
+    {
+        //Create variables to change color of player sprite
+        tk2dSprite sprite;
+        sprite = this.GetComponent<tk2dSprite>();
+        Color color = sprite.color;
+        color.a = 0.5f;
+        sprite.color = color; 
+
+        camoflaged = true;
+
+        Debug.Log("The Camoflage method ran"); 
+
+    }
+
 
     void Update()
     {
@@ -363,7 +387,52 @@ public class playercontrols : MonoBehaviour {
             ToggleBoozeVision(); 
         }
 
+        //This is the section for the camoflague power-up
+        if (Input.GetButtonUp("Camo") && !camoflaged && camoflageReady)
+        {
+            Camoflage(); 
+        }
 
+
+        if (camoflaged)
+        {
+            camoText.SetActive(false); 
+
+            //Create variables to change color of player sprite
+            tk2dSprite sprite;
+            sprite = this.GetComponent<tk2dSprite>();
+            Color color = sprite.color;
+
+            
+
+            if (color.a >= 1.0f)
+            {
+                camoflaged = false;
+                camoflageReady = false; 
+                Debug.Log("Set Camoflaged to false"); 
+            }
+            else
+            {
+                color.a += 0.001f;
+                sprite.color = color; 
+            }
+        }
+
+        if (!camoflageReady)
+        {
+            
+            camoflageTimer += Time.deltaTime;
+            Debug.Log("The value of Camoflage timer is " + camoflageTimer); 
+
+            if (camoflageTimer >= 20.0f)
+            {
+                camoflageReady = true;
+                camoText.SetActive(true); 
+                Debug.Log("Camoflage is ready!");
+                camoflageTimer = 0.0f;  
+            }
+
+        }
 
 
         //Vector3 velocity = rigidbody.velocity;

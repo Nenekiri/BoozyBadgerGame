@@ -178,6 +178,8 @@ MonoBehaviour:
   player: {fileID: 0}
   distance: 0
   animP: {fileID: 0}
+  randNum: 0
+  spawnedHealth: 0
   isBoss: 0
   bossDeathSound: {fileID: 0}
   projectile: {fileID: 106028, guid: 264b9b440db45344194d7f35b9aad45c, type: 2}
@@ -318,7 +320,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 030ebeba11cb4e648b7d1988e00ccfa9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f3fc1d9492b0128438e4db17f0657075, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!222 &22262908
 CanvasRenderer:
@@ -457,6 +459,11 @@ Prefab:
       propertyPath: projectile
       value: 
       objectReference: {fileID: 106028, guid: 264b9b440db45344194d7f35b9aad45c, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f3fc1d9492b0128438e4db17f0657075,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 107776}
