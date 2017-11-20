@@ -2967,8 +2967,8 @@ MonoBehaviour:
         selection: 0
     - id: 9
       name: UwULewdFoxDialogue
-      startPage: 0
-      scrollPosition: {x: 741.213013, y: 0}
+      startPage: 10
+      scrollPosition: {x: 0, y: 0}
       phases:
       - id: 0
         type: 0
@@ -3281,6 +3281,37 @@ MonoBehaviour:
         variableScrollPosition: {x: 0, y: 71}
         variableSetEquation: 0
         variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 10
+        type: 3
+        theme: 
+        position: {x: 32, y: 113}
+        outs: 00000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 3
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: false
         variableGetEquation: 0
         variableGetValue: 
         messageName: 
@@ -5538,7 +5569,7 @@ MonoBehaviour:
     - id: 18
       name: ActuallyUseful
       startPage: 0
-      scrollPosition: {x: 1491.22961, y: 0}
+      scrollPosition: {x: 1699.16125, y: 60}
       phases:
       - id: 0
         type: 0
@@ -5921,7 +5952,7 @@ MonoBehaviour:
         type: 0
         theme: 
         position: {x: 2258, y: 12}
-        outs: 0d000000
+        outs: 0e000000
         advanced: 1
         metadata: 
         text: He better hope the snake gets to me first before I get to him!
@@ -5951,7 +5982,7 @@ MonoBehaviour:
       - id: 13
         type: 6
         theme: 
-        position: {x: 2372, y: 485}
+        position: {x: 2687, y: 615}
         outs: 
         advanced: 0
         metadata: 
@@ -5976,6 +6007,69 @@ MonoBehaviour:
         variableScrollPosition: {x: 0, y: 0}
         variableSetEquation: 0
         variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 14
+        type: 0
+        theme: 
+        position: {x: 2259.22949, y: 450}
+        outs: 0f000000
+        advanced: 1
+        metadata: 
+        text: 'Boozy can now temporarily camoflage himself! Press the B button on
+          an Xbox 360 controller or press E to activate it. '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 15
+        type: 3
+        theme: 
+        position: {x: 2573.22949, y: 122}
+        outs: 0d000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 9
+        variableScrollPosition: {x: 0, y: 90}
+        variableSetEquation: 0
+        variableSetValue: true
         variableGetEquation: 0
         variableGetValue: 
         messageName: 
@@ -6283,6 +6377,272 @@ MonoBehaviour:
       booleans:
         variables: []
         selection: 0
+    - id: 20
+      name: PumaInOhio
+      startPage: 0
+      scrollPosition: {x: 455.453156, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 470, y: 10}
+        outs: 01000000
+        advanced: 1
+        metadata: 
+        text: Wait, Puma? Why are you here?
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 471, y: 446}
+        outs: 02000000
+        advanced: 1
+        metadata: 
+        text: 'It''s actually Kodi now! Getting really into being a giant cat. Plus
+          having the other name lets me get info easier. '
+        name: Kodi
+        portrait: KodiKatPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 770, y: 10}
+        outs: 03000000
+        advanced: 1
+        metadata: 
+        text: 'Speaking of which, I managed to snag this letter while I was out and
+          about. I think it says where they are all coming from. '
+        name: Kodi
+        portrait: KodiKatPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 771, y: 445}
+        outs: 04000000
+        advanced: 1
+        metadata: 
+        text: 'Thanks Kodi! I''m gonna get you back to normal yet. '
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 1072, y: 10}
+        outs: 05000000
+        advanced: 1
+        metadata: 
+        text: Take your time! I'm gonna keep scouting ahead. Why not take in the sights
+          while you're here?
+        name: Kodi
+        portrait: KodiKatPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 0
+        theme: 
+        position: {x: 1069.87573, y: 444}
+        outs: 06000000
+        advanced: 1
+        metadata: 
+        text: 'Kodi, it''s Ohio. I passed the Wal-Mart on the way over here. There''s
+          not much else to see. '
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 0
+        theme: 
+        position: {x: 1377, y: 10}
+        outs: 07000000
+        advanced: 1
+        metadata: 
+        text: Suit yourself! Good luck getting past all of the sov cits!
+        name: Kodi
+        portrait: KodiKatPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 6
+        theme: 
+        position: {x: 1728.45312, y: 342}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
     globals:
       booleans:
         variables:
@@ -6313,7 +6673,10 @@ MonoBehaviour:
         - name: EndLewdFoxDialogue
           variable: false
           id: 8
-        selection: 8
+        - name: EndUsefulDialogue
+          variable: false
+          id: 9
+        selection: 9
       floats:
         variables: []
         selection: 0

@@ -245,6 +245,12 @@ MonoBehaviour:
   OtterTrigger: {fileID: 0}
   OtterInternetDialogue: {fileID: 0}
   OtterInternetTrigger: {fileID: 0}
+  KodiOhioDialogue: {fileID: 0}
+  KodiOhioTrigger: {fileID: 0}
+  AfterFightDialogue: {fileID: 0}
+  DialogueTriggerAfterFight: {fileID: 0}
+  RealizationDialogue: {fileID: 0}
+  DialogueTriggerRealization: {fileID: 0}
   jumpCounter: 0
   eagleDial: {fileID: 0}
   eaglePlaceholder: {fileID: 0}

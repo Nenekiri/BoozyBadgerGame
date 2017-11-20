@@ -19,6 +19,9 @@ TagManager:
   - DialogueTriggerInternetOtter
   - SpikeBoundary
   - BigSword
+  - DialogueTriggerKodi
+  - DialogueTriggerAfterFight
+  - DialogueTriggerRealization
   layers:
   - Default
   - TransparentFX

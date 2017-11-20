@@ -59,6 +59,18 @@ public class MainMenuUI : MonoBehaviour {
         {
             Application.LoadLevel("Internet1-3");
         }
+        if (PlayerPrefs.GetFloat("savedLevel") == 8)
+        {
+            Application.LoadLevel("Internet1-4");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 9)
+        {
+            Application.LoadLevel("LewdFoxBoss");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 10)
+        {
+            Application.LoadLevel("Facility1-1");
+        }
 
         //this is the general format for how I loaded levels in Ramen Man
         //if (PlayerPrefs.GetFloat("savedLevel") == 1)

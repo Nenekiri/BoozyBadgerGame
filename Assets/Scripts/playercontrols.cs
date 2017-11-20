@@ -40,7 +40,18 @@ public class playercontrols : MonoBehaviour {
 
     //varibles for triggering the dialogue with QM on the first Internet stage
     public GameObject OtterInternetDialogue;
-    public GameObject OtterInternetTrigger; 
+    public GameObject OtterInternetTrigger;
+
+    //varibles for triggering the dialogue with Kodi on the Ohio stage
+    public GameObject KodiOhioDialogue;
+    public GameObject KodiOhioTrigger;
+
+    //variables for triggering the dialogue after the Lewd Fox fight
+    public GameObject AfterFightDialogue;
+    public GameObject DialogueTriggerAfterFight;
+
+    public GameObject RealizationDialogue;
+    public GameObject DialogueTriggerRealization;
 
     //varible to control second jump once it is unlocked from beating the eagle boss
     public int jumpCounter = 0;
@@ -66,6 +77,8 @@ public class playercontrols : MonoBehaviour {
         anim = GetComponent<tk2dSpriteAnimator>();
         audios = this.GetComponent<AudioSource>();
 
+        camoflageReady = true;
+        camoText = GameObject.Find("CamoText");
 
         //find the variables to trigger the QM starting dialogue
         if (Application.loadedLevelName == "OpeningScene")
@@ -81,6 +94,23 @@ public class playercontrols : MonoBehaviour {
             OtterInternetTrigger = GameObject.Find("DialogueTriggerInternetOtter");
         }
 
+        //find the variables to trigger the Kodi Ohio dialogue
+        if (Application.loadedLevelName == "LewdFoxBoss")
+        {
+            AfterFightDialogue = GameObject.Find("AfterFightDialogue");
+            DialogueTriggerAfterFight = GameObject.Find("DialogueTriggerAfterFight");
+
+            RealizationDialogue = GameObject.Find("RealizationDialogue");
+            DialogueTriggerRealization = GameObject.Find("DialogueTriggerRealization"); 
+        }
+
+        //find the variables to trigger the Kodi Ohio dialogue
+        if (Application.loadedLevelName == "Ohio")
+        {
+            KodiOhioDialogue = GameObject.Find("KodiOhioDialogue");
+            KodiOhioTrigger = GameObject.Find("DialogueTriggerKodi");
+        }
+
         //this bit of code allows us to tell when dialogue events have ended
         Dialoguer.events.onEnded += Events_onEnded;
 
@@ -94,10 +124,10 @@ public class playercontrols : MonoBehaviour {
         {
             lewdDial = GameObject.Find("LewdFoxDialogue");
             lewdPlaceholder = GameObject.Find("LewdFoxPlaceholder");
+            camoText.SetActive(false); 
         }
 
-        camoflageReady = true;
-        camoText = GameObject.Find("CamoText"); 
+        
 
     }
 
@@ -184,6 +214,26 @@ public class playercontrols : MonoBehaviour {
             OtterInternetDialogue.transform.GetChild(0).gameObject.SetActive(true);
             OtterInternetTrigger.SetActive(false);
         }
+        //This section is to trigger the dialogue that starts the convo with Kodi in Ohio stage
+        if (col.tag == "DialogueTriggerKodi")
+        {
+            KodiOhioDialogue.transform.GetChild(0).gameObject.SetActive(true);
+            KodiOhioTrigger.SetActive(false);
+        }
+
+        //This section is to trigger the dialogue that starts the convo with Kodi in Ohio stage
+        if (col.tag == "DialogueTriggerAfterFight")
+        {
+            AfterFightDialogue.transform.GetChild(0).gameObject.SetActive(true);
+            DialogueTriggerAfterFight.SetActive(false);
+        }
+
+        //This section is to trigger the dialogue that starts the convo with Kodi in Ohio stage
+        if (col.tag == "DialogueTriggerRealization")
+        {
+            RealizationDialogue.transform.GetChild(0).gameObject.SetActive(true);
+            DialogueTriggerRealization.SetActive(false);
+        }
 
         //this is used to keep the player from falling forever in the level
         if (col.tag == "SpikeBoundary")
@@ -238,6 +288,13 @@ public class playercontrols : MonoBehaviour {
 
             lewdPlaceholder.SetActive(false);
             lewdBoss.SetActive(true);
+
+        }
+        else if (Dialoguer.GetGlobalBoolean(9) == true)
+        {
+          
+
+            Application.LoadLevel("Facility1-1"); 
 
         }
     }
@@ -388,11 +445,11 @@ public class playercontrols : MonoBehaviour {
         }
 
         //This is the section for the camoflague power-up
-        if (Input.GetButtonUp("Camo") && !camoflaged && camoflageReady)
+        if (Input.GetButtonUp("Camo") && !camoflaged && camoflageReady && Dialoguer.GetGlobalBoolean(3) == true)
         {
             Camoflage(); 
         }
-
+        
 
         if (camoflaged)
         {
@@ -432,6 +489,22 @@ public class playercontrols : MonoBehaviour {
                 camoflageTimer = 0.0f;  
             }
 
+        }
+
+
+        if (Application.loadedLevelName == "LewdFoxBoss")
+        {
+            if (Dialoguer.GetGlobalBoolean(3) == false)
+            {
+                DialogueTriggerAfterFight.SetActive(false);
+                DialogueTriggerRealization.SetActive(false);
+            }
+            else if (Dialoguer.GetGlobalBoolean(3) == true)
+            {
+                DialogueTriggerAfterFight.SetActive(true);
+                DialogueTriggerRealization.SetActive(true);
+                camoText.SetActive(true); 
+            }
         }
 
 

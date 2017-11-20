@@ -21,4 +21,5 @@ public enum DialoguerDialogues{
 	UnfortunateRevelation = 17,
 	ActuallyUseful = 18,
 	NoMessWithOtter = 19,
+	PumaInOhio = 20,
 }
