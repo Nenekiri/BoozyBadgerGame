@@ -22,6 +22,7 @@ TagManager:
   - DialogueTriggerKodi
   - DialogueTriggerAfterFight
   - DialogueTriggerRealization
+  - CollisionSnakeEnemy
   layers:
   - Default
   - TransparentFX

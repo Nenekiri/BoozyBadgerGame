@@ -179,6 +179,13 @@ public class PlayerHealth : MonoBehaviour {
             checkHealth();
         }
 
+        //logic for when the player is touching the enemy
+        if (col.gameObject.tag == "CollisionSnakeEnemy")
+        {
+            audios.PlayOneShot(hitSound);
+            checkHealth();
+        }
+
         if (col.gameObject.tag == "healthPickup")
         {
             addHealth();
@@ -186,6 +193,18 @@ public class PlayerHealth : MonoBehaviour {
             Destroy(col.gameObject);
         }
     }
+
+    void OnCollisionStay2D(Collision2D col)
+    {
+        //logic for when the player is touching the enemy
+        if (col.gameObject.tag == "CollisionSnakeEnemy")
+        {
+            audios.PlayOneShot(hitSound);
+            checkHealth();
+        }
+
+    }
+
 
 
     //this code could be helpful for traps as they should continuously do damage. 
