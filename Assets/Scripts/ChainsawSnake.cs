@@ -58,16 +58,33 @@ public class ChainsawSnake : MonoBehaviour {
        
 
 
-        if (Mathf.Abs(distance) <= 30f)//increased range to make him harder to get out from under. 
+        if (Mathf.Abs(distance) <= 30f && playercontrols.camoOn!=true)//increased range to make him harder to get out from under. 
         {
 
             if (player.transform.position.x < transform.position.x)
             {
+                speed = 5f;
                 StartCoroutine(Delay(2.0f));
                 transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
             }
             else if (player.transform.position.x > transform.position.x)
             {
+                speed = 5f;
+                StartCoroutine(Delay(2.0f));
+                transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+            }
+        }
+        else if(Mathf.Abs(distance) > 30f && playercontrols.camoOn!=true)
+        {
+            if (player.transform.position.x < transform.position.x)
+            {
+                speed = 10f; 
+                StartCoroutine(Delay(2.0f));
+                transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+            }
+            else if (player.transform.position.x > transform.position.x)
+            {
+                speed = 10f;
                 StartCoroutine(Delay(2.0f));
                 transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
             }

@@ -16,7 +16,9 @@ public class playercontrols : MonoBehaviour {
     public bool camoflaged;
     public bool camoflageReady;
     public float camoflageTimer = 0.0f;
-    public GameObject camoText; 
+    public GameObject camoText;
+    //use this static bool to test the camoflauge
+    public static bool camoOn;  
 
     public AudioClip jumpSound;
 
@@ -315,6 +317,7 @@ public class playercontrols : MonoBehaviour {
         sprite.color = color; 
 
         camoflaged = true;
+        camoOn = true; 
 
         Debug.Log("The Camoflage method ran"); 
 
@@ -445,7 +448,7 @@ public class playercontrols : MonoBehaviour {
         }
 
         //This is the section for the camoflague power-up
-        if (Input.GetButtonUp("Camo") && !camoflaged && camoflageReady && Dialoguer.GetGlobalBoolean(3) == true)
+        if (Input.GetButtonUp("Camo") && !camoflaged && camoflageReady) //&& Dialoguer.GetGlobalBoolean(3) == true (need this for later, only taken out for testing) 
         {
             Camoflage(); 
         }
@@ -465,7 +468,8 @@ public class playercontrols : MonoBehaviour {
             if (color.a >= 1.0f)
             {
                 camoflaged = false;
-                camoflageReady = false; 
+                camoflageReady = false;
+                camoOn = false; 
                 Debug.Log("Set Camoflaged to false"); 
             }
             else

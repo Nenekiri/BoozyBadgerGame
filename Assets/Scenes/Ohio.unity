@@ -5623,7 +5623,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11487350, guid: db968266b8f0dcc44a0ace4aa2fbc0f4, type: 2}
       propertyPath: speed
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 164500, guid: db968266b8f0dcc44a0ace4aa2fbc0f4, type: 2}
       propertyPath: m_TagString
