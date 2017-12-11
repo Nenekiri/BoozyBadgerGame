@@ -199,10 +199,10 @@ MonoBehaviour:
     regionW: 16
     regionH: 16
     regionId: 2
-    colliderType: 0
+    colliderType: 3
     colliderData: []
     boxColliderMin: {x: 0, y: 0}
-    boxColliderMax: {x: 0, y: 0}
+    boxColliderMax: {x: 16, y: 16}
     polyColliderIslands: []
     polyColliderCap: 1
     colliderConvex: 0
@@ -1859,10 +1859,10 @@ MonoBehaviour:
     regionW: 16
     regionH: 16
     regionId: 42
-    colliderType: 0
+    colliderType: 3
     colliderData: []
     boxColliderMin: {x: 0, y: 0}
-    boxColliderMax: {x: 0, y: 0}
+    boxColliderMax: {x: 16, y: 16}
     polyColliderIslands: []
     polyColliderCap: 1
     colliderConvex: 0
@@ -3423,10 +3423,10 @@ MonoBehaviour:
     regionW: 16
     regionH: 16
     regionId: 80
-    colliderType: 0
+    colliderType: 3
     colliderData: []
     boxColliderMin: {x: 0, y: 0}
-    boxColliderMax: {x: 0, y: 0}
+    boxColliderMax: {x: 16, y: 16}
     polyColliderIslands: []
     polyColliderCap: 1
     colliderConvex: 0
@@ -3464,10 +3464,10 @@ MonoBehaviour:
     regionW: 16
     regionH: 16
     regionId: 81
-    colliderType: 0
+    colliderType: 3
     colliderData: []
     boxColliderMin: {x: 0, y: 0}
-    boxColliderMax: {x: 0, y: 0}
+    boxColliderMax: {x: 15, y: 16}
     polyColliderIslands: []
     polyColliderCap: 1
     colliderConvex: 0
@@ -3505,10 +3505,10 @@ MonoBehaviour:
     regionW: 16
     regionH: 16
     regionId: 82
-    colliderType: 0
+    colliderType: 3
     colliderData: []
     boxColliderMin: {x: 0, y: 0}
-    boxColliderMax: {x: 0, y: 0}
+    boxColliderMax: {x: 16, y: 16}
     polyColliderIslands: []
     polyColliderCap: 1
     colliderConvex: 0
@@ -5063,10 +5063,10 @@ MonoBehaviour:
     regionW: 16
     regionH: 16
     regionId: 120
-    colliderType: 0
+    colliderType: 3
     colliderData: []
     boxColliderMin: {x: 0, y: 0}
-    boxColliderMax: {x: 0, y: 0}
+    boxColliderMax: {x: 16, y: 16}
     polyColliderIslands: []
     polyColliderCap: 1
     colliderConvex: 0
@@ -5104,10 +5104,10 @@ MonoBehaviour:
     regionW: 16
     regionH: 16
     regionId: 121
-    colliderType: 0
+    colliderType: 3
     colliderData: []
-    boxColliderMin: {x: 0, y: 0}
-    boxColliderMax: {x: 0, y: 0}
+    boxColliderMin: {x: 1, y: 0}
+    boxColliderMax: {x: 16, y: 16}
     polyColliderIslands: []
     polyColliderCap: 1
     colliderConvex: 0
@@ -41166,7 +41166,7 @@ MonoBehaviour:
   normalGenerationMode: 0
   padAmount: -1
   autoUpdate: 1
-  editorDisplayScale: 13.3300133
+  editorDisplayScale: 13.2400131
   version: 4
   assetName: 
   linkedSpriteCollections: []

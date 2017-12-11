@@ -7,7 +7,11 @@ public class ChainsawSnake : MonoBehaviour {
 
     public GameObject player;
     public float distance = 0.0f;
-    public float speed = 1.0f; 
+    public float speed = 1.0f;
+
+    public AudioSource audios;
+    public AudioClip chainsawSound;
+    //public ParticleSystem ps;
 
     //public float pointA;
     //public float pointB;
@@ -18,6 +22,13 @@ public class ChainsawSnake : MonoBehaviour {
     void Start ()
     {
         player = GameObject.Find(playerName);
+        //used for audiosource
+        audios = this.GetComponent<AudioSource>();
+
+        //used for particlesystem
+        //ps = GetComponent<ParticleSystem>(); 
+        //ps.Stop();
+
         //StartCoroutine(MoveSnake());
 
     }//end of Start
@@ -78,17 +89,27 @@ public class ChainsawSnake : MonoBehaviour {
         {
             if (player.transform.position.x < transform.position.x)
             {
-                speed = 10f; 
+                if (!audios.isPlaying)
+                {
+                    audios.PlayOneShot(chainsawSound);
+                }
+                speed = 15f; 
                 StartCoroutine(Delay(2.0f));
                 transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
             }
             else if (player.transform.position.x > transform.position.x)
             {
-                speed = 10f;
+                if (!audios.isPlaying)
+                {
+                    audios.PlayOneShot(chainsawSound);
+                }
+                speed = 15f;
                 StartCoroutine(Delay(2.0f));
                 transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
             }
         }
+
+        
 
         //MoveSnakeAtoB();
     }//end of FixedUpdate

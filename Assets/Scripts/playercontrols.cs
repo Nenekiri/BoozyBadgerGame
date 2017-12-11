@@ -70,7 +70,12 @@ public class playercontrols : MonoBehaviour {
     //variables to control the logic for when the dialogue ends for Lewd Fox
     public GameObject lewdDial;
     public GameObject lewdPlaceholder;
-    public GameObject lewdBoss; 
+    public GameObject lewdBoss;
+
+
+    //used to control the particle system for the Chainsaw Snake
+    //public ParticleSystem chainsawParticles;
+    //public GameObject CS;  
 
     void Start()
     {
@@ -129,7 +134,10 @@ public class playercontrols : MonoBehaviour {
             camoText.SetActive(false); 
         }
 
-        
+        //CS = GameObject.Find("ChainsawSnake");
+        //chainsawParticles = CS.GetComponent<ParticleSystem>();
+        ////chainsawParticles.Stop(); 
+        //chainsawParticles.Pause(); 
 
     }
 
@@ -469,7 +477,7 @@ public class playercontrols : MonoBehaviour {
             {
                 camoflaged = false;
                 camoflageReady = false;
-                camoOn = false; 
+                camoOn = false;
                 Debug.Log("Set Camoflaged to false"); 
             }
             else
@@ -510,6 +518,18 @@ public class playercontrols : MonoBehaviour {
                 camoText.SetActive(true); 
             }
         }
+
+        //used for visual feedback to the player on the state of the chainsaw snake
+        //if (camoOn == true)
+        //{
+        //    Debug.Log("particles should be playing");
+        //    chainsawParticles.Play();
+        //}
+        //else if(camoOn == false)
+        //{
+        //    chainsawParticles.Pause();
+        //    chainsawParticles.Stop(); 
+        //}
 
 
         //Vector3 velocity = rigidbody.velocity;
