@@ -41163,7 +41163,7 @@ MonoBehaviour:
   physicsDepth: .100000001
   disableTrimming: 0
   disableRotation: 0
-  normalGenerationMode: 0
+  normalGenerationMode: 1
   padAmount: -1
   autoUpdate: 1
   editorDisplayScale: 13.2400131
