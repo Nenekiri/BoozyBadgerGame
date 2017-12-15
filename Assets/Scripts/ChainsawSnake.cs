@@ -49,15 +49,24 @@ public class ChainsawSnake : MonoBehaviour {
 
         distance = player.transform.position.x - transform.position.x;
 
-        //changes the direction that the enemy is facing
-        if (player.transform.position.x < transform.position.x)
+        if (Application.loadedLevelName == "Facility1-3")
         {
-            transform.localScale = new Vector3(10, 10, 1);
+            //keeps the chainsaw snake from flipping its sprite and becoming completely invisible
         }
-        if (player.transform.position.x > transform.position.x)
+        else
         {
-            transform.localScale = new Vector3(-10, 10, 1);
+            //changes the direction that the enemy is facing
+            if (player.transform.position.x < transform.position.x)
+            {
+                transform.localScale = new Vector3(10, 10, 1);
+            }
+            if (player.transform.position.x > transform.position.x)
+            {
+                transform.localScale = new Vector3(-10, 10, 1);
+            }
+
         }
+
 
     }//end of Update
     void FixedUpdate()
