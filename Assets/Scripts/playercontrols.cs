@@ -72,6 +72,9 @@ public class playercontrols : MonoBehaviour {
     public GameObject lewdPlaceholder;
     public GameObject lewdBoss;
 
+    //variable to control QM showing up with a big bat
+    public GameObject OtterBat; 
+
 
     //used to control the particle system for the Chainsaw Snake
     //public ParticleSystem chainsawParticles;
@@ -243,6 +246,11 @@ public class playercontrols : MonoBehaviour {
         {
             RealizationDialogue.transform.GetChild(0).gameObject.SetActive(true);
             DialogueTriggerRealization.SetActive(false);
+        }
+
+        if (col.tag == "OtterBatTrigger")
+        {
+            OtterBat.SetActive(true); 
         }
 
         //this is used to keep the player from falling forever in the level

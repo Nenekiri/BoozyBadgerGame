@@ -259,6 +259,7 @@ MonoBehaviour:
   lewdDial: {fileID: 0}
   lewdPlaceholder: {fileID: 0}
   lewdBoss: {fileID: 0}
+  OtterBat: {fileID: 0}
 --- !u!114 &11497060
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -49,7 +49,7 @@ public class ChainsawSnake : MonoBehaviour {
 
         distance = player.transform.position.x - transform.position.x;
 
-        if (Application.loadedLevelName == "Facility1-3")
+        if (Application.loadedLevelName == "Facility1-3" || Application.loadedLevelName == "Facility1-4" || Application.loadedLevelName == "Facility1-5")
         {
             //keeps the chainsaw snake from flipping its sprite and becoming completely invisible
         }
@@ -124,24 +124,28 @@ public class ChainsawSnake : MonoBehaviour {
     }//end of FixedUpdate
 
 
+    void OnTriggerEnter2D(Collider2D col)
+    {
 
-    //IEnumerator MoveObject(Transform thisTransform, Vector3 startPos, Vector3 endPos, float time)
-    //{
-    //    var i = 0.0f;
-    //    var rate = 1.0f / time;
-    //    while (i < 1.0f)
-    //    {
-    //        i += Time.deltaTime * rate;
-    //        thisTransform.position = Vector3.Lerp(startPos, endPos, i);
-    //        if (thisTransform.position == endPos) //need to find an alternative for this as comparing the float value to an exact number causes the snake to stop and then never start again.
-    //        {
-    //            StopAllCoroutines();
-    //            StartCoroutine(Delay(3.0f));
-    //        }
-    //        yield return null;
-    //    }
-      
-    //}
+    }
+
+        //IEnumerator MoveObject(Transform thisTransform, Vector3 startPos, Vector3 endPos, float time)
+        //{
+        //    var i = 0.0f;
+        //    var rate = 1.0f / time;
+        //    while (i < 1.0f)
+        //    {
+        //        i += Time.deltaTime * rate;
+        //        thisTransform.position = Vector3.Lerp(startPos, endPos, i);
+        //        if (thisTransform.position == endPos) //need to find an alternative for this as comparing the float value to an exact number causes the snake to stop and then never start again.
+        //        {
+        //            StopAllCoroutines();
+        //            StartCoroutine(Delay(3.0f));
+        //        }
+        //        yield return null;
+        //    }
+
+        //}
 
         //void MoveSnakeAtoB()
         //{

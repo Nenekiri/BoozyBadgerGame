@@ -31,7 +31,9 @@ public class MusicSingleton : MonoBehaviour {
     public AudioClip firstLevel;
     public AudioClip EagleBoss;
     public AudioClip Internet;
-    public AudioClip LewdFoxBoss; 
+    public AudioClip LewdFoxBoss;
+    public AudioClip Facility;
+    public AudioClip robotFight; 
 
 
 
@@ -130,6 +132,54 @@ public class MusicSingleton : MonoBehaviour {
         if (Application.loadedLevelName == "LewdFoxBoss")
         {
             s.clip = LewdFoxBoss;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+        if (Application.loadedLevelName == "Facility1-1")
+        {
+            s.clip = Facility;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+        if (Application.loadedLevelName == "Facility1-2")
+        {
+            s.clip = Facility;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+        if (Application.loadedLevelName == "Facility1-3")
+        {
+            s.clip = Facility;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+        if (Application.loadedLevelName == "Facility1-4")
+        {
+            s.clip = Facility;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+        if (Application.loadedLevelName == "Facility1-5")
+        {
+            s.clip = Facility;
+            if (!s.isPlaying)
+            {
+                s.Play();
+            }
+        }
+        if (Application.loadedLevelName == "BoozyBotFight")
+        {
+            s.clip = robotFight;
             if (!s.isPlaying)
             {
                 s.Play();

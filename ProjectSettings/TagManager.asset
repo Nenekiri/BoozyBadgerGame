@@ -23,6 +23,8 @@ TagManager:
   - DialogueTriggerAfterFight
   - DialogueTriggerRealization
   - CollisionSnakeEnemy
+  - OtterBatTrigger
+  - DFWOtterBat
   layers:
   - Default
   - TransparentFX

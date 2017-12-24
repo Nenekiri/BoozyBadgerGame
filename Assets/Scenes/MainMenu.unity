@@ -2026,6 +2026,8 @@ MonoBehaviour:
   EagleBoss: {fileID: 8300000, guid: 0d000a8c33be4234183529e8f4e93381, type: 3}
   Internet: {fileID: 8300000, guid: 65980879944ce3042aa6305fec34c4b3, type: 3}
   LewdFoxBoss: {fileID: 8300000, guid: b7e0c7e8e4175bb46baf7ea16e7c5222, type: 3}
+  Facility: {fileID: 8300000, guid: b4202f82e0192e247b4343c60cc0d5d3, type: 3}
+  robotFight: {fileID: 8300000, guid: 5ac766ddd9f664c429d95852a77385cc, type: 3}
 --- !u!4 &1571168885
 Transform:
   m_ObjectHideFlags: 0
