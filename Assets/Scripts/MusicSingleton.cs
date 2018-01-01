@@ -171,11 +171,11 @@ public class MusicSingleton : MonoBehaviour {
         }
         if (Application.loadedLevelName == "Facility1-5")
         {
-            s.clip = Facility;
-            if (!s.isPlaying)
-            {
-                s.Play();
-            }
+            //s.clip = Facility;
+            //if (!s.isPlaying)
+            //{
+            //    s.Play();
+            //}
         }
         if (Application.loadedLevelName == "BoozyBotFight")
         {

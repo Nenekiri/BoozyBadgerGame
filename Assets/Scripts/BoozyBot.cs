@@ -20,6 +20,8 @@ public class BoozyBot : Enemy {
     //public bool direction;
     public int timer;
     public GameObject projectile;
+
+    public GameObject endDialogue; 
     //private Vector3 t; 
 
     // Use this for initialization
@@ -100,6 +102,11 @@ public class BoozyBot : Enemy {
         //hides the healthbar if not in range
         ShowHealthBar();
 
+
+        if (currentHealth <= 0)
+        {
+            endDialogue.SetActive(true);
+        }
 
         ////logic to handle the BoozyBot's shooting functionality
         //if (Mathf.Abs(distance) <= 10f && shooting == false)

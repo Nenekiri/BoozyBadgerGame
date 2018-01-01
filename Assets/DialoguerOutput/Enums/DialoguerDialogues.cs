@@ -22,4 +22,6 @@ public enum DialoguerDialogues{
 	ActuallyUseful = 18,
 	NoMessWithOtter = 19,
 	PumaInOhio = 20,
+	BoozyBotDialogue = 21,
+	BoozyBotAfterFight = 22,
 }
