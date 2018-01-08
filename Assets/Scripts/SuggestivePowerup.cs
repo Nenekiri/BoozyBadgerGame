@@ -18,10 +18,7 @@ public class SuggestivePowerup : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        if (Dialoguer.GetGlobalBoolean(3) == true)
-        {
-            g.SetActive(true); 
-        }
+     
 	
 	}//end of Update
 
@@ -30,6 +27,7 @@ public class SuggestivePowerup : MonoBehaviour {
         if (col.gameObject.tag == "player")
         {
             UsefulDialogue.transform.GetChild(0).gameObject.SetActive(true);
+            Destroy(this.gameObject); 
         }
     }//end of OnCollisionEnter2D
 

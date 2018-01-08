@@ -56,13 +56,24 @@ void Start()
 
     void OnCollisionEnter2D(Collision2D col)
     {
+       
 
         if (collectedPapersStatic >= paperNumberStatic && col.gameObject.tag == "player")
         {
-            //change the sprite to be the happy one
-            sr.sprite = happyOtter;
-            audios.PlayOneShot(finishLevelSound); 
-            StartCoroutine(Delay(5.0f)); 
+            //checks to see if its a facility level first so that the next level will load faster
+            if (Application.loadedLevelName.Contains("Facility"))
+            {
+                Application.LoadLevel(nextLevel);
+            }
+            else
+            {
+                //change the sprite to be the happy one
+                sr.sprite = happyOtter;
+                audios.PlayOneShot(finishLevelSound);
+                StartCoroutine(Delay(5.0f));
+            }
+
+            
             
         }
 

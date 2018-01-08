@@ -6067,7 +6067,7 @@ MonoBehaviour:
         variableScope: 0
         variableType: 0
         variableId: 9
-        variableScrollPosition: {x: 0, y: 90}
+        variableScrollPosition: {x: 0, y: 147}
         variableSetEquation: 0
         variableSetValue: true
         variableGetEquation: 0
@@ -7075,6 +7075,806 @@ MonoBehaviour:
       booleans:
         variables: []
         selection: 0
+    - id: 23
+      name: MontegueDialogue
+      startPage: 0
+      scrollPosition: {x: 990.059875, y: 60}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 809, y: 12}
+        outs: 01000000
+        advanced: 1
+        metadata: 
+        text: And who are you?
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 807, y: 449}
+        outs: 02000000
+        advanced: 1
+        metadata: 
+        text: 'I''m Montegue, the scientist that called you about my TF ray being
+          stolen from me! Thank goodness you managed to quell that rampaging robot. '
+        name: Montegue
+        portrait: MonteguePortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 1109, y: 10}
+        outs: 03000000
+        advanced: 1
+        metadata: 
+        text: Oh, you're the client? Any particular reason you haven't sent payment
+          to my office yet?
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 1107.33459, y: 445}
+        outs: 04000000
+        advanced: 1
+        metadata: 
+        text: 'I couldn''t get to my phone again after that robot showed up! I''m
+          been hiding in my lab ever since. '
+        name: Montegue
+        portrait: MonteguePortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 1414.33459, y: 10}
+        outs: 05000000
+        advanced: 1
+        metadata: 
+        text: 'I''ll wire you the money posthaste! '
+        name: Montegue
+        portrait: MonteguePortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 0
+        theme: 
+        position: {x: 1415.33459, y: 448}
+        outs: 06000000
+        advanced: 1
+        metadata: 
+        text: 'Good, now tell me everything you can remember about the break-in. '
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 0
+        theme: 
+        position: {x: 1717.33459, y: 10}
+        outs: 07000000
+        advanced: 1
+        metadata: 
+        text: I was asleep when it happened. Though I did hear when they were leaving
+          as I heard a strangely intense wolf howl just outside my window.
+        name: Montegue
+        portrait: MonteguePortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 0
+        theme: 
+        position: {x: 1721.33447, y: 447}
+        outs: 08000000
+        advanced: 1
+        metadata: 
+        text: 'My guess is the person who stole it used it on himself and became a
+          wolf in the process. '
+        name: Montegue
+        portrait: MonteguePortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 8
+        type: 0
+        theme: 
+        position: {x: 2022.33447, y: 11}
+        outs: 09000000
+        advanced: 1
+        metadata: 
+        text: Did you get a good look at his face? Or any of the people he was with?
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 9
+        type: 0
+        theme: 
+        position: {x: 2028.33447, y: 448}
+        outs: 0a000000
+        advanced: 1
+        metadata: 
+        text: 'No, I didn''t. And even if I had his molecular biology has been changed
+          by the ray, He''s not going to look like himself anymore. '
+        name: Montegue
+        portrait: MonteguePortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 10
+        type: 0
+        theme: 
+        position: {x: 2328.33447, y: 10}
+        outs: 0b000000
+        advanced: 1
+        metadata: 
+        text: Well that's no help then. I don't know where he could even be!
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 11
+        type: 0
+        theme: 
+        position: {x: 2326.33447, y: 445}
+        outs: 0c000000
+        advanced: 1
+        metadata: 
+        text: '*RING RING RING*'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 12
+        type: 0
+        theme: 
+        position: {x: 2631.33447, y: 13}
+        outs: 0d000000
+        advanced: 1
+        metadata: 
+        text: Yeah Puma, what's up?
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 13
+        type: 0
+        theme: 
+        position: {x: 2629.52588, y: 447}
+        outs: 0e000000
+        advanced: 1
+        metadata: 
+        text: OH NO! ANYWHERE BUT THERE!!!
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 14
+        type: 0
+        theme: 
+        position: {x: 2938.52588, y: 15}
+        outs: 0f000000
+        advanced: 1
+        metadata: 
+        text: "Fine, but I won't like it. \n"
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 15
+        type: 0
+        theme: 
+        position: {x: 2930.52588, y: 448}
+        outs: 10000000
+        advanced: 1
+        metadata: 
+        text: '*click*'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 16
+        type: 0
+        theme: 
+        position: {x: 3241.76855, y: 13}
+        outs: 11000000
+        advanced: 1
+        metadata: 
+        text: Everything ok, sir?
+        name: Montegue
+        portrait: MonteguePortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 17
+        type: 0
+        theme: 
+        position: {x: 3241.76855, y: 451}
+        outs: 12000000
+        advanced: 1
+        metadata: 
+        text: Yes, my paralegal has found a piece of evidence that traces down the
+          location of the person who started this whole mess. But I have to meet her
+          to get it. In Ohio...
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 18
+        type: 0
+        theme: 
+        position: {x: 3548.76855, y: 15}
+        outs: 13000000
+        advanced: 1
+        metadata: 
+        text: I...take it you don't like Ohio?
+        name: Montegue
+        portrait: MonteguePortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 19
+        type: 0
+        theme: 
+        position: {x: 3545.76855, y: 453}
+        outs: 14000000
+        advanced: 1
+        metadata: 
+        text: 'I''d rather not get into it. You have my office number in case you
+          need to get a hold of me. '
+        name: Boozy
+        portrait: NewTestPortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 20
+        type: 0
+        theme: 
+        position: {x: 3855.76855, y: 17}
+        outs: 15000000
+        advanced: 1
+        metadata: 
+        text: Hold on! I have something to help you out. Take these scientific goggles.
+          They'll help you find anything that is useful to you at a glance.
+        name: Montegue
+        portrait: MonteguePortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 21
+        type: 0
+        theme: 
+        position: {x: 3856.76855, y: 456}
+        outs: 16000000
+        advanced: 1
+        metadata: 
+        text: 'Just press the Y button on the controller or the E button on the keyboard
+          to enable/disable them. '
+        name: Montegue
+        portrait: MonteguePortrait
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 22
+        type: 0
+        theme: 
+        position: {x: 4164.76855, y: 18}
+        outs: 17000000
+        advanced: 1
+        metadata: 
+        text: Boozy acquired Booze Goggles!
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 23
+        type: 3
+        theme: 
+        position: {x: 4165.76855, y: 456}
+        outs: 18000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 12
+        variableScrollPosition: {x: 0, y: 147}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 24
+        type: 6
+        theme: 
+        position: {x: 4518.76855, y: 321}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
     globals:
       booleans:
         variables:
@@ -7114,7 +7914,10 @@ MonoBehaviour:
         - name: EndBoozyBotConvo
           variable: false
           id: 11
-        selection: 11
+        - name: MontegueConvoOver
+          variable: false
+          id: 12
+        selection: 12
       floats:
         variables: []
         selection: 0

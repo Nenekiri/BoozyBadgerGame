@@ -75,6 +75,7 @@ public class BoozyBot : Enemy {
             }//end of timer logic
         }//end of distance calc
 
+        
     }
 
 	// Update is called once per frame

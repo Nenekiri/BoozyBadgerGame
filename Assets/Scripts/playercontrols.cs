@@ -308,13 +308,6 @@ public class playercontrols : MonoBehaviour {
             lewdBoss.SetActive(true);
 
         }
-        else if (Dialoguer.GetGlobalBoolean(9) == true)
-        {
-          
-
-            Application.LoadLevel("Facility1-1"); 
-
-        }
     }
 
     void ToggleBoozeVision()
@@ -526,6 +519,8 @@ public class playercontrols : MonoBehaviour {
                 camoText.SetActive(true); 
             }
         }
+
+        
 
         //used for visual feedback to the player on the state of the chainsaw snake
         //if (camoOn == true)

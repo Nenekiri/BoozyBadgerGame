@@ -25,6 +25,7 @@ TagManager:
   - CollisionSnakeEnemy
   - OtterBatTrigger
   - DFWOtterBat
+  - Montegue
   layers:
   - Default
   - TransparentFX
