@@ -2021,7 +2021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   s: {fileID: 1571168886}
   ac: {fileID: 8300000, guid: 81377df37a54e984ca3ab5dc783c2938, type: 3}
-  startingScene: {fileID: 8300000, guid: 65980879944ce3042aa6305fec34c4b3, type: 3}
+  startingScene: {fileID: 8300000, guid: 61021363ecc09684688aa7907faefede, type: 3}
   firstLevel: {fileID: 8300000, guid: 39708f53cbc8f044db158793d924d28e, type: 3}
   EagleBoss: {fileID: 8300000, guid: 0d000a8c33be4234183529e8f4e93381, type: 3}
   Internet: {fileID: 8300000, guid: 65980879944ce3042aa6305fec34c4b3, type: 3}

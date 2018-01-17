@@ -3947,6 +3947,8 @@ MonoBehaviour:
     - SovCitInternet#2
     - SovCit#1
     - SovCitInternet#3
+    - SovCit#3_OtherBeetle
+    - FinalWolfBossExecutioner
     spriteTextureGUIDs:
     - 3a304cb21e76f774d81d031b0e572071
     - 0ca27dd96c0173448840bffce0c8f524
@@ -3957,6 +3959,8 @@ MonoBehaviour:
     - 91494249137145443b21912366580275
     - 9f6773eeafd6e0044bf8b962142c8b80
     - 0056929d86063c542b147cef28980e5b
+    - d9ad4518986efea45bc8e7eb0d6f95b4
+    - d2437d5f65208064d851aa7591c9c7ad
     spriteTextureTimeStamps:
     - 1496077373.52733
     - 1497811363.94205
@@ -3967,6 +3971,8 @@ MonoBehaviour:
     - 1496080298.37753
     - 1496077348.82802
     - 1496078477.06422
+    - 1516053754.1082
+    - 1516057915.86287
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
@@ -4075,6 +4081,56 @@ MonoBehaviour:
     - BoozyBotDeathAnim30
     - BoozyBotDeathAnim31
     - BoozyBotDeathAnim32
+    - FinalWolfBossExecutioner28
+    - FinalWolfBossExecutioner5
+    - FinalWolfBossExecutioner17
+    - FinalWolfBossExecutioner1
+    - FinalWolfBossExecutioner50
+    - FinalWolfBossExecutioner34
+    - FinalWolfBossExecutioner9
+    - FinalWolfBossExecutioner13
+    - FinalWolfBossExecutioner4
+    - FinalWolfBossExecutioner25
+    - FinalWolfBossExecutioner24
+    - FinalWolfBossExecutioner19
+    - FinalWolfBossExecutioner16
+    - FinalWolfBossExecutioner20
+    - FinalWolfBossExecutioner44
+    - FinalWolfBossExecutioner10
+    - FinalWolfBossExecutioner48
+    - FinalWolfBossExecutioner6
+    - FinalWolfBossExecutioner47
+    - FinalWolfBossExecutioner32
+    - FinalWolfBossExecutioner36
+    - FinalWolfBossExecutioner15
+    - FinalWolfBossExecutioner8
+    - FinalWolfBossExecutioner30
+    - FinalWolfBossExecutioner12
+    - FinalWolfBossExecutioner43
+    - FinalWolfBossExecutioner21
+    - FinalWolfBossExecutioner2
+    - FinalWolfBossExecutioner37
+    - FinalWolfBossExecutioner45
+    - FinalWolfBossExecutioner23
+    - FinalWolfBossExecutioner3
+    - FinalWolfBossExecutioner31
+    - FinalWolfBossExecutioner18
+    - FinalWolfBossExecutioner22
+    - FinalWolfBossExecutioner40
+    - FinalWolfBossExecutioner41
+    - FinalWolfBossExecutioner49
+    - FinalWolfBossExecutioner7
+    - FinalWolfBossExecutioner38
+    - FinalWolfBossExecutioner27
+    - FinalWolfBossExecutioner42
+    - FinalWolfBossExecutioner14
+    - FinalWolfBossExecutioner46
+    - FinalWolfBossExecutioner26
+    - FinalWolfBossExecutioner35
+    - FinalWolfBossExecutioner39
+    - FinalWolfBossExecutioner33
+    - FinalWolfBossExecutioner11
+    - FinalWolfBossExecutioner29
     spriteTextureGUIDs:
     - 3b6b740055eab3544827ee1163d72b29
     - d1274730125f98f45a55b9a516d2d706
@@ -4176,6 +4232,56 @@ MonoBehaviour:
     - 26eae001a5cd99f41866b2b7857844c1
     - a4a7c7b89b3ba3243b237b38f17de84b
     - ab9545d3a4863cc4ebc212110400649a
+    - c64a9c401ac68f049ac9222b86c46f81
+    - a6fe04608abc1334a858713878889d3c
+    - 21958ec0a87bd974a919b28f9bad4adc
+    - 4bc1ff61544256e49ade6bc2499b2cd3
+    - d35ea0926ba28994a940be5c61d7e792
+    - b70a4ca25c28023419deb36825d9bdb7
+    - b2be8f13d8caec84d97f0242a5d972ee
+    - 3b91f2b39faf70946974aac5157af05e
+    - 447c6b149f1de5144a0c9058fb49d0b4
+    - d0e557441e0908c42b55e48427b9afe3
+    - b64d4f7458417ab498c3deb54e2b2e55
+    - a2a494949ee02c445af8be3a6f503e48
+    - bb1238c48e712304980d2238ac174b24
+    - de181d151e87a4b4391713a3889e563c
+    - 46a78c75389b3b0489717e645279b6c3
+    - 44e3ae8528249c041a57f415618cc7bd
+    - 2506e8a54b2a29645997f59189a91274
+    - 3c33d316d81a2414392485d867789dad
+    - 3e185ec69f0e4f340966502b9091654f
+    - c85e3047578250b44afe92fd66011eea
+    - 0a1b38673ae4a6147849f0ba2f7b626b
+    - b8d09ff7cd0d2dd4e8af8b3cfe0c1e41
+    - e46482280411e36448b55cf9bf593976
+    - 3bb5e528ab0f242488325142c752b8b0
+    - b65fbd78ed0715e47adc2255ff381c95
+    - e2f1cbc865672504089b6511ef2a8e6c
+    - b93249a9e312761418df1df95b959c9e
+    - 22ba05e9ee12b9e449a5574cffe29a20
+    - f42b100a7deacc7488e3b6c1111930b9
+    - 7d18fb5aaa29eff4a94c77489259bfec
+    - a5784a8a94d6b654bbebf1d94cff8e12
+    - 31665eaad6bf4b44694b6c871a621dd2
+    - f5f4384ba8a766b4d838b159409ac8c8
+    - 92da82bbb08776a4eaf7ffb42271bcb9
+    - cf23d3bbb42596545bd212fc77754394
+    - d7e128ebac30a3a4bba83d1b95133445
+    - d3a164fb150a3664da3b0d9b28bbf15d
+    - 1ad1743cfc0d0014bb92dedb1dcacc46
+    - 2e96369c3168d404dbc34a015cf712ca
+    - 5cd868dc1e3736547846e72a3f1ef425
+    - c351401d7ad284848ac5596061acf41d
+    - 650b132d302129341baaa8bb2f677d87
+    - ed43f95dce6f8bd44aae6f51f525897a
+    - 855edc6d93dfcd54baab5b8450636519
+    - 0ad478dddd57faf4d8afd33035b9f4c8
+    - 88d2e40eb14d8f54dbd1e43e39a45f11
+    - 811ede1e23b30134299ae81331af321a
+    - 0ef8591fefb85644793912cff31db37b
+    - 0dc55b3f86fee854eb421b7d2cec13ac
+    - bf823d9f7da3f8e438b2f26fef8dd548
     spriteTextureTimeStamps:
     - 1504546126.66358
     - 1504547343.29255
@@ -4277,6 +4383,56 @@ MonoBehaviour:
     - 1510272205.33791
     - 1510272205.33841
     - 1510272205.33841
+    - 1516142554.59895
+    - 1516142554.58902
+    - 1516142554.59443
+    - 1516142554.58702
+    - 1516142554.6375
+    - 1516142554.6295
+    - 1516142554.59079
+    - 1516142554.5928
+    - 1516142554.58852
+    - 1516142554.59795
+    - 1516142554.59744
+    - 1516142554.59544
+    - 1516142554.5938
+    - 1516142554.59594
+    - 1516142554.6345
+    - 1516142554.5913
+    - 1516142554.6365
+    - 1516142554.58902
+    - 1516142554.6365
+    - 1516142554.6285
+    - 1516142554.6305
+    - 1516142554.5933
+    - 1516142554.59002
+    - 1516142554.6275
+    - 1516142554.5923
+    - 1516142554.634
+    - 1516142554.59594
+    - 1516142554.58752
+    - 1516142554.631
+    - 1516142554.6355
+    - 1516142554.59694
+    - 1516142554.58802
+    - 1516142554.62801
+    - 1516142554.59494
+    - 1516142554.59694
+    - 1516142554.6325
+    - 1516142554.633
+    - 1516142554.637
+    - 1516142554.58952
+    - 1516142554.6315
+    - 1516142554.59845
+    - 1516142554.6335
+    - 1516142554.5928
+    - 1516142554.636
+    - 1516142554.59845
+    - 1516142554.63
+    - 1516142554.632
+    - 1516142554.629
+    - 1516142554.5918
+    - 1516142554.59945
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

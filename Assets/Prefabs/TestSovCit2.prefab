@@ -261,7 +261,7 @@ MonoBehaviour:
   collection: {fileID: 11480352, guid: 4dacf23f120410142bc619db65d032e2, type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
-  _spriteId: 2
+  _spriteId: 9
   boxCollider2D: {fileID: 0}
   polygonCollider2D: []
   edgeCollider2D: []
@@ -514,7 +514,7 @@ Prefab:
         type: 2}
     - target: {fileID: 0}
       propertyPath: _spriteId
-      value: 2
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: library
