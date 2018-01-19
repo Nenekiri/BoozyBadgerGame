@@ -25,4 +25,5 @@ public enum DialoguerDialogues{
 	BoozyBotDialogue = 21,
 	BoozyBotAfterFight = 22,
 	MontegueDialogue = 23,
+	ProtectiveDante = 24,
 }

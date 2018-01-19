@@ -26,6 +26,7 @@ TagManager:
   - OtterBatTrigger
   - DFWOtterBat
   - Montegue
+  - GiantHorse
   layers:
   - Default
   - TransparentFX
