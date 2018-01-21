@@ -45,3 +45,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Facility1-5.unity
   - enabled: 1
     path: Assets/Scenes/Ohio.unity
+  - enabled: 1
+    path: Assets/Scenes/BallPitBonusStage.unity

@@ -65,11 +65,39 @@ public class MainMenuUI : MonoBehaviour {
         }
         if (PlayerPrefs.GetFloat("savedLevel") == 9)
         {
-            Application.LoadLevel("LewdFoxBoss");
+            Application.LoadLevel("InternetIntermission");
         }
         if (PlayerPrefs.GetFloat("savedLevel") == 10)
         {
+            Application.LoadLevel("LewdFoxBoss");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 11)
+        {
             Application.LoadLevel("Facility1-1");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 12)
+        {
+            Application.LoadLevel("Facility1-2");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 13)
+        {
+            Application.LoadLevel("Facility1-3");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 14)
+        {
+            Application.LoadLevel("Facility1-4");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 15)
+        {
+            Application.LoadLevel("Facility1-5");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 16)
+        {
+            Application.LoadLevel("BoozyBotFight");
+        }
+        if (PlayerPrefs.GetFloat("savedLevel") == 17)
+        {
+            Application.LoadLevel("Ohio");
         }
 
         //this is the general format for how I loaded levels in Ramen Man

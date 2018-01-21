@@ -10265,7 +10265,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11422008, guid: d74cb88d0802eb74fadc581dfba591bd, type: 2}
       propertyPath: nextLevel
-      value: LewdFoxBoss
+      value: InternetIntermission
       objectReference: {fileID: 0}
     - target: {fileID: 436118, guid: d74cb88d0802eb74fadc581dfba591bd, type: 2}
       propertyPath: m_LocalScale.x
@@ -18715,7 +18715,7 @@ RectTransform:
   - {fileID: 1239833171}
   - {fileID: 77478231}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}

@@ -260,6 +260,12 @@ MonoBehaviour:
   lewdPlaceholder: {fileID: 0}
   lewdBoss: {fileID: 0}
   OtterBat: {fileID: 0}
+  PDDialogue: {fileID: 0}
+  DialogueTriggerProtectiveDante: {fileID: 0}
+  PGDialogue: {fileID: 0}
+  DialogueTriggerProtectiveGrandiose: {fileID: 0}
+  PMDialogue: {fileID: 0}
+  DialogueTriggerProtectiveMeow: {fileID: 0}
 --- !u!114 &11497060
 MonoBehaviour:
   m_ObjectHideFlags: 1

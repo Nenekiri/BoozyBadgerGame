@@ -49740,6 +49740,10 @@ Prefab:
       propertyPath: paperNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11452830, guid: f7f5a749970e38a4a84b916b2e8ae60f, type: 2}
+      propertyPath: levelNumber
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f7f5a749970e38a4a84b916b2e8ae60f, type: 2}
   m_IsPrefabParent: 0

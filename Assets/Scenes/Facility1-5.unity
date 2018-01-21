@@ -15477,7 +15477,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11452830, guid: f7f5a749970e38a4a84b916b2e8ae60f, type: 2}
       propertyPath: nextLevel
-      value: Facility1-5
+      value: BoozyBotFight
       objectReference: {fileID: 0}
     - target: {fileID: 11452830, guid: f7f5a749970e38a4a84b916b2e8ae60f, type: 2}
       propertyPath: paperNumber
@@ -15486,6 +15486,10 @@ Prefab:
     - target: {fileID: 159354, guid: f7f5a749970e38a4a84b916b2e8ae60f, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452830, guid: f7f5a749970e38a4a84b916b2e8ae60f, type: 2}
+      propertyPath: levelNumber
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f7f5a749970e38a4a84b916b2e8ae60f, type: 2}

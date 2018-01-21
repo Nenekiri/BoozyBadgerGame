@@ -5361,6 +5361,10 @@ Prefab:
       propertyPath: nextLevel
       value: Facility1-3
       objectReference: {fileID: 0}
+    - target: {fileID: 11452830, guid: f7f5a749970e38a4a84b916b2e8ae60f, type: 2}
+      propertyPath: levelNumber
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f7f5a749970e38a4a84b916b2e8ae60f, type: 2}
   m_IsPrefabParent: 0
@@ -40127,7 +40131,7 @@ Transform:
   m_Children:
   - {fileID: 1858789491}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
 --- !u!1 &1952023544 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 148268, guid: 56d216955581721478f274941bc5ee61, type: 2}

@@ -5621,6 +5621,10 @@ Prefab:
       propertyPath: finishLevelSound
       value: 
       objectReference: {fileID: 8300000, guid: 7f80b75ea488256478fee2b058cc2657, type: 3}
+    - target: {fileID: 11452830, guid: f7f5a749970e38a4a84b916b2e8ae60f, type: 2}
+      propertyPath: levelNumber
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f7f5a749970e38a4a84b916b2e8ae60f, type: 2}
   m_IsPrefabParent: 0
@@ -12596,7 +12600,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11422008, guid: d74cb88d0802eb74fadc581dfba591bd, type: 2}
       propertyPath: nextLevel
-      value: LewdFoxBoss
+      value: Facility1-2
       objectReference: {fileID: 0}
     - target: {fileID: 436118, guid: d74cb88d0802eb74fadc581dfba591bd, type: 2}
       propertyPath: m_LocalScale.x
@@ -12604,7 +12608,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11422008, guid: d74cb88d0802eb74fadc581dfba591bd, type: 2}
       propertyPath: levelNumber
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 166306, guid: d74cb88d0802eb74fadc581dfba591bd, type: 2}
       propertyPath: m_IsActive

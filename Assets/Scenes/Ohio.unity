@@ -15283,7 +15283,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11422008, guid: d74cb88d0802eb74fadc581dfba591bd, type: 2}
       propertyPath: nextLevel
-      value: LewdFoxBoss
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 436118, guid: d74cb88d0802eb74fadc581dfba591bd, type: 2}
       propertyPath: m_LocalScale.x
@@ -15291,7 +15291,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11422008, guid: d74cb88d0802eb74fadc581dfba591bd, type: 2}
       propertyPath: levelNumber
-      value: 8
+      value: 17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d74cb88d0802eb74fadc581dfba591bd, type: 2}

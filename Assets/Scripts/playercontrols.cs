@@ -73,7 +73,18 @@ public class playercontrols : MonoBehaviour {
     public GameObject lewdBoss;
 
     //variable to control QM showing up with a big bat
-    public GameObject OtterBat; 
+    public GameObject OtterBat;
+
+    //variables for the dialogue in the InternetIntermission scene
+    public GameObject PDDialogue;
+    public GameObject DialogueTriggerProtectiveDante;
+    public GameObject PGDialogue;
+    public GameObject DialogueTriggerProtectiveGrandiose;
+    public GameObject PMDialogue;
+    public GameObject DialogueTriggerProtectiveMeow; 
+
+
+
 
 
     //used to control the particle system for the Chainsaw Snake
@@ -246,6 +257,22 @@ public class playercontrols : MonoBehaviour {
         {
             RealizationDialogue.transform.GetChild(0).gameObject.SetActive(true);
             DialogueTriggerRealization.SetActive(false);
+        }
+
+        if (col.tag == "DialogueTriggerProtectiveDante")
+        {
+            PDDialogue.transform.GetChild(0).gameObject.SetActive(true);
+            DialogueTriggerProtectiveDante.SetActive(false);
+        }
+        if (col.tag == "DialogueTriggerProtectiveGrandiose")
+        {
+            PGDialogue.transform.GetChild(0).gameObject.SetActive(true);
+            DialogueTriggerProtectiveGrandiose.SetActive(false); 
+        }
+        if (col.tag == "DialogueTriggerProtectiveMeow")
+        {
+            PMDialogue.transform.GetChild(0).gameObject.SetActive(true);
+            DialogueTriggerProtectiveMeow.SetActive(false);
         }
 
         if (col.tag == "OtterBatTrigger")
