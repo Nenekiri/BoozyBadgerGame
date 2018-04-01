@@ -36,6 +36,7 @@ public class BarristerControls : MonoBehaviour {
     public GameObject NextConvo;
     public GameObject C;
     public GameObject door;
+    public GameObject Camera; 
 
 
     void Start()
@@ -263,6 +264,11 @@ public class BarristerControls : MonoBehaviour {
         ps.Stop();
         this.gameObject.SetActive(false);
         Instantiate(Boozy, transform.position, transform.rotation);
+
+        //code to set the target to the newly instantiated Boozy object
+        FollowCamera cam = Camera.GetComponent<FollowCamera>();
+        cam.target = GameObject.Find("AnimatedBoozy(Clone)"); 
+
         C.SetActive(true);
         door.SetActive(true); 
         NextConvo.SetActive(true); 

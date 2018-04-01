@@ -30,10 +30,10 @@ public class OtterBatCollide : MonoBehaviour {
 
     void OnCollisionEnter2D(Collider2D col)
     {
-        //if (col.gameObject.tag == "CollisionSnakeEnemy")
-        //{
+        if (col.gameObject.tag == "CollisionSnakeEnemy")
+        {
             sp.sprite = OtterBatBloody;
-        //}
+        }
     }
 
     //void OnCollisionStay2D(Collider2D col)

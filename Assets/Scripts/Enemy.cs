@@ -116,68 +116,123 @@ public class Enemy : MonoBehaviour {
 
     public void HurtEnemy()
     {
-
-        //If Boozy is talking, then the enemy takes some damage
-        if (MicInput.MicLoudness * sensitivity > threshold && Mathf.Abs(distance) <= 10f)
+        if (Globals.DamageByMicrophone == true)
         {
-            //isAttacked = true;
-            //if (isAttacked)
-            //{
-            //animP.Play("BoozyAttack");
-            //}
-            ps.Play(); 
-
-            
-            currentHealth -= 0.1f;
-            healthBar.value = currentHealth; 
-            Debug.Log(currentHealth); 
-            if (currentHealth <= 0)
+            //If Boozy is talking, then the enemy takes some damage
+            if (MicInput.MicLoudness * sensitivity > threshold && Mathf.Abs(distance) <= 10f)
             {
-                animP.Play("BoozyStandStill");
-                ps.Stop();
+                //isAttacked = true;
+                //if (isAttacked)
+                //{
+                //animP.Play("BoozyAttack");
+                //}
+                ps.Play();
 
-                this.gameObject.tag = "Untagged";  
 
-                
-                if (randNum == 2 && spawnedHealth == false)
+                currentHealth -= 0.1f;
+                healthBar.value = currentHealth;
+                Debug.Log(currentHealth);
+                if (currentHealth <= 0)
                 {
-                    Instantiate(boozeDrop, transform.position, Quaternion.Euler(0, 180, 0));
-                    spawnedHealth = true; 
-                }
+                    animP.Play("BoozyStandStill");
+                    ps.Stop();
 
-                //isAttacked = false; 
+                    this.gameObject.tag = "Untagged";
 
-                if (!anim.IsPlaying("EnemyDeathAnim") && !isBoss)
-                {
-                    //used only if the enemy is a boss
-                    //if (isBoss)
-                    //{
 
-                    //}
+                    if (randNum == 2 && spawnedHealth == false)
+                    {
+                        Instantiate(boozeDrop, transform.position, Quaternion.Euler(0, 180, 0));
+                        spawnedHealth = true;
+                    }
 
-                    anim.Play("EnemyDeathAnim");
-                    anim.AnimationCompleted = DestroyDelegate;
-                }
-                else if(isBoss)
-                {
-                    //this is to ensure that all movement based in coroutines stops before the final cutscene plays
-                    StopAllCoroutines(); 
-                    //Start the coroutine that does a delay and then plays the ending dialogue for the boss
-                    StartCoroutine(DelayBoss(3.0f)); 
-                }
+                    //isAttacked = false; 
 
-                
+                    if (!anim.IsPlaying("EnemyDeathAnim") && !isBoss)
+                    {
+                        //used only if the enemy is a boss
+                        //if (isBoss)
+                        //{
 
+                        //}
+
+                        anim.Play("EnemyDeathAnim");
+                        anim.AnimationCompleted = DestroyDelegate;
+                    }
+                    else if (isBoss)
+                    {
+                        //this is to ensure that all movement based in coroutines stops before the final cutscene plays
+                        StopAllCoroutines();
+                        //Start the coroutine that does a delay and then plays the ending dialogue for the boss
+                        StartCoroutine(DelayBoss(3.0f));
+                    }
                     //destroy the gameobject here just in case we need to spawn a health pickup
                     //Destroy(gameObject);
-                } 
-        }
-        else if(!animP.IsPlaying("BoozyWalk"))
+                } //end of currentHealth check
+            }
+            else if (!animP.IsPlaying("BoozyWalk"))
+            {
+                animP.Play("BoozyStandStill");
+            }
+        }//end of DamageByMicrophone being true
+        else if (Globals.DamageByMicrophone == false)
         {
-            animP.Play("BoozyStandStill");
-        }
+            //If the player presses the input button for the attack on either a controller or the keyboard this happen
+            if (Input.GetButton("AttackWithoutMic") && Mathf.Abs(distance) <= 10f)
+            {
+                
+                ps.Play();
 
-    }
+
+                currentHealth -= 0.1f;
+                healthBar.value = currentHealth;
+                Debug.Log(currentHealth);
+                if (currentHealth <= 0)
+                {
+                    animP.Play("BoozyStandStill");
+                    ps.Stop();
+
+                    this.gameObject.tag = "Untagged";
+
+
+                    if (randNum == 2 && spawnedHealth == false)
+                    {
+                        Instantiate(boozeDrop, transform.position, Quaternion.Euler(0, 180, 0));
+                        spawnedHealth = true;
+                    }
+
+                    //isAttacked = false; 
+
+                    if (!anim.IsPlaying("EnemyDeathAnim") && !isBoss)
+                    {
+                        //used only if the enemy is a boss
+                        //if (isBoss)
+                        //{
+
+                        //}
+
+                        anim.Play("EnemyDeathAnim");
+                        anim.AnimationCompleted = DestroyDelegate;
+                    }
+                    else if (isBoss)
+                    {
+                        //this is to ensure that all movement based in coroutines stops before the final cutscene plays
+                        StopAllCoroutines();
+                        //Start the coroutine that does a delay and then plays the ending dialogue for the boss
+                        StartCoroutine(DelayBoss(3.0f));
+                    }
+                    //destroy the gameobject here just in case we need to spawn a health pickup
+                    //Destroy(gameObject);
+                } //end of currentHealth check
+            }
+            else if (!animP.IsPlaying("BoozyWalk"))
+            {
+                animP.Play("BoozyStandStill");
+            }
+
+        }//end of DamageByMicrophone being false
+
+    }//end of HurtEnemy method
 
     //float CalcHealth()
     //{

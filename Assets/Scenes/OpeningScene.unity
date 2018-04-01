@@ -2279,7 +2279,7 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: bb323e8cbb222414d85430f3ac0b2b2e, type: 2}
   renderData: {fileID: 163152200}
   spriteCollection: {fileID: 11452586, guid: 6ccdc9beadded464ebca1d8b45286f4e, type: 2}
-  spriteCollectionKey: 508507124
+  spriteCollectionKey: 876146632
   width: 128
   height: 128
   partitionSizeX: 32
@@ -6613,6 +6613,10 @@ Prefab:
       propertyPath: OtterTrigger
       value: 
       objectReference: {fileID: 1518837506}
+    - target: {fileID: 11425882, guid: ae74d4c205d54d6459354765678a3c89, type: 2}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 1539503564}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ae74d4c205d54d6459354765678a3c89, type: 2}
   m_IsPrefabParent: 0

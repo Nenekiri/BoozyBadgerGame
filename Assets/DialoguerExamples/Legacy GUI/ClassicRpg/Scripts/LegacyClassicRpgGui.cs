@@ -78,6 +78,11 @@ public class LegacyClassicRpgGui : MonoBehaviour
 					audioTextEnd.Play();
 				}
 			}
+            //code to skip dialogue
+            if (Input.GetKeyDown(KeyCode.M))
+            {
+                Dialoguer.EndDialogue(); 
+            }
 		}
 		else
 		{

@@ -2775,7 +2775,7 @@ Mesh:
   m_IndexBuffer: 
   m_Skin: []
   m_VertexData:
-    m_CurrentChannels: 1
+    m_CurrentChannels: 3
     m_VertexCount: 0
     m_Channels:
     - stream: 0
@@ -2783,9 +2783,9 @@ Mesh:
       format: 0
       dimension: 3
     - stream: 0
-      offset: 0
+      offset: 12
       format: 0
-      dimension: 0
+      dimension: 3
     - stream: 0
       offset: 0
       format: 0
@@ -7866,7 +7866,7 @@ Mesh:
   m_IndexBuffer: 
   m_Skin: []
   m_VertexData:
-    m_CurrentChannels: 1
+    m_CurrentChannels: 3
     m_VertexCount: 0
     m_Channels:
     - stream: 0
@@ -7874,9 +7874,9 @@ Mesh:
       format: 0
       dimension: 3
     - stream: 0
-      offset: 0
+      offset: 12
       format: 0
-      dimension: 0
+      dimension: 3
     - stream: 0
       offset: 0
       format: 0
@@ -12549,7 +12549,7 @@ Mesh:
   m_IndexBuffer: 
   m_Skin: []
   m_VertexData:
-    m_CurrentChannels: 1
+    m_CurrentChannels: 3
     m_VertexCount: 0
     m_Channels:
     - stream: 0
@@ -12557,9 +12557,9 @@ Mesh:
       format: 0
       dimension: 3
     - stream: 0
-      offset: 0
+      offset: 12
       format: 0
-      dimension: 0
+      dimension: 3
     - stream: 0
       offset: 0
       format: 0
@@ -14147,7 +14147,7 @@ Mesh:
   m_IndexBuffer: 
   m_Skin: []
   m_VertexData:
-    m_CurrentChannels: 1
+    m_CurrentChannels: 3
     m_VertexCount: 0
     m_Channels:
     - stream: 0
@@ -14155,9 +14155,9 @@ Mesh:
       format: 0
       dimension: 3
     - stream: 0
-      offset: 0
+      offset: 12
       format: 0
-      dimension: 0
+      dimension: 3
     - stream: 0
       offset: 0
       format: 0
@@ -16005,7 +16005,7 @@ Mesh:
   m_IndexBuffer: 
   m_Skin: []
   m_VertexData:
-    m_CurrentChannels: 1
+    m_CurrentChannels: 3
     m_VertexCount: 0
     m_Channels:
     - stream: 0
@@ -16013,9 +16013,9 @@ Mesh:
       format: 0
       dimension: 3
     - stream: 0
-      offset: 0
+      offset: 12
       format: 0
-      dimension: 0
+      dimension: 3
     - stream: 0
       offset: 0
       format: 0
@@ -19847,7 +19847,7 @@ Mesh:
   m_IndexBuffer: 
   m_Skin: []
   m_VertexData:
-    m_CurrentChannels: 1
+    m_CurrentChannels: 3
     m_VertexCount: 0
     m_Channels:
     - stream: 0
@@ -19855,9 +19855,9 @@ Mesh:
       format: 0
       dimension: 3
     - stream: 0
-      offset: 0
+      offset: 12
       format: 0
-      dimension: 0
+      dimension: 3
     - stream: 0
       offset: 0
       format: 0

@@ -4507,6 +4507,13 @@ MonoBehaviour:
   lewdDial: {fileID: 0}
   lewdPlaceholder: {fileID: 0}
   lewdBoss: {fileID: 0}
+  OtterBat: {fileID: 0}
+  PDDialogue: {fileID: 0}
+  DialogueTriggerProtectiveDante: {fileID: 0}
+  PGDialogue: {fileID: 0}
+  DialogueTriggerProtectiveGrandiose: {fileID: 0}
+  PMDialogue: {fileID: 0}
+  DialogueTriggerProtectiveMeow: {fileID: 0}
 --- !u!1 &293366422 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 105744, guid: e9d11357bc8dabe4f9ed868d13722989, type: 2}
@@ -6789,7 +6796,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 433144, guid: df6bd613a4089bd49add2e17740e1326, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 22370844, guid: df6bd613a4089bd49add2e17740e1326, type: 2}
       propertyPath: m_Camera
@@ -9331,7 +9338,7 @@ Transform:
   - {fileID: 2070398793}
   - {fileID: 417389564}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
 --- !u!1 &576944487 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 105744, guid: e9d11357bc8dabe4f9ed868d13722989, type: 2}
@@ -10214,7 +10221,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 421586, guid: 6300cfcf4b5af1340aca902769062ba3, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 22326702, guid: 6300cfcf4b5af1340aca902769062ba3, type: 2}
       propertyPath: m_Camera
@@ -14449,7 +14456,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 445448, guid: 00329486277c9964a8d7f0d004a4b7f6, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 22369310, guid: 00329486277c9964a8d7f0d004a4b7f6, type: 2}
       propertyPath: m_Camera
@@ -14621,7 +14628,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 461816, guid: fcbffe93443c53849bababd9106e9875, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3380658, guid: fcbffe93443c53849bababd9106e9875, type: 2}
       propertyPath: m_Mesh
@@ -18938,7 +18945,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 448480, guid: bf5141ce4ba817341918ce511dfaa828, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 11445268, guid: bf5141ce4ba817341918ce511dfaa828, type: 2}
       propertyPath: player
@@ -24454,7 +24461,7 @@ Transform:
   m_Children:
   - {fileID: 326063862}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
 --- !u!1 &1488101291 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 180770, guid: f0c8cbe6a6af64041a782d3b6f261b7a, type: 2}
@@ -28341,7 +28348,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 31
 --- !u!1 &1753476411
 GameObject:
   m_ObjectHideFlags: 0
@@ -29982,7 +29989,7 @@ Transform:
   - {fileID: 544028949}
   - {fileID: 1435155029}
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 40
 --- !u!1001 &1790133715
 Prefab:
   m_ObjectHideFlags: 0
@@ -33303,7 +33310,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 466546, guid: 8e400382c8f07f6449c7e568ac16dc64, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 22394208, guid: 8e400382c8f07f6449c7e568ac16dc64, type: 2}
       propertyPath: m_Camera
@@ -35568,7 +35575,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 468044, guid: 338876085eb9e5646b32ee7e16726768, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 22351764, guid: 338876085eb9e5646b32ee7e16726768, type: 2}
       propertyPath: m_Camera

@@ -15,7 +15,7 @@ public class LewdFox : Enemy {
     public float timer;
     private ParticleEmitter emitter;
 
-    public AudioSource audios;
+    public AudioSource audiosource;
     public AudioClip teleportSound;
 
     public GameObject endDialogue;
@@ -27,7 +27,7 @@ public class LewdFox : Enemy {
     {
         base.Start();
         emitter = GetComponent<ParticleEmitter>();
-        audios = this.GetComponent<AudioSource>();
+        audiosource = this.GetComponent<AudioSource>();
         //starts the coroutine that handles the waiting and then firing of the fox enemy
     }
 
@@ -39,7 +39,7 @@ public class LewdFox : Enemy {
         //might be able to vary this boss fight up a bit by having him fire faster and fire more projectiles as the battle goes on and his health gets lower
         if (timer >= 5.0f && !foxDead)
         {
-            audios.PlayOneShot(teleportSound); 
+            audiosource.PlayOneShot(teleportSound); 
             this.transform.position = (points[Random.Range(0, points.Length * 7) % points.Length]);
             GameObject clone = (GameObject)Instantiate(projectile, transform.position, transform.rotation);
             GameObject clone2 = (GameObject)Instantiate(projectile, transform.position, transform.rotation);

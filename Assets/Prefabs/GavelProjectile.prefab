@@ -110,8 +110,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: dfa76d1087301ac44b9ecb9911a8086f, type: 3}
-  m_Color: {r: .0367646813, g: .00973182824, b: .00973182824, a: 1}
+  m_Sprite: {fileID: 21300000, guid: e28a85121a44fb74db888d6ed7c9fff0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -121,20 +121,25 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: m_Color.r
-      value: .0367646813
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Color.g
-      value: .00973182824
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Color.b
-      value: .00973182824
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: playerName
       value: AnimatedBoozy
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e28a85121a44fb74db888d6ed7c9fff0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 106028}

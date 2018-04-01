@@ -157,5 +157,37 @@ public class MainMenuUI : MonoBehaviour {
         Application.Quit();
     }
 
+    //methods for the Options menu
+
+    public void ToggleMicAttack(bool toggleMic)
+    {
+        if (toggleMic == true)
+        {
+            Globals.DamageByMicrophone = true;
+            Debug.Log("DBM value is true!"); 
+        }
+        else if (toggleMic == false)
+        {
+            Globals.DamageByMicrophone = false;
+            Debug.Log("DBM value is false!");
+        }
+
+    }//end of ToggleMicAttack method
+
+    public void ToggleMusic(bool toggleMusic)
+    {
+        if (toggleMusic == true)
+        {
+            Globals.MusicToggle = true;
+            AudioListener.volume = 1; 
+            Debug.Log("Music value is true!");
+        }
+        else if (toggleMusic == false)
+        {
+            Globals.MusicToggle = false;
+            AudioListener.volume = 0; 
+            Debug.Log("Music value is false!");
+        }
+    }
 
 }//end of MainMenuUI
